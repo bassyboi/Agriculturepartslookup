@@ -33,6 +33,39 @@ Each product folder contains two CSV files:
 - `recommended_part_numbers` - Part numbers to resolve the issue (semicolon-separated)
 - `severity` - Low / Medium / High / Critical
 
+## High-ROI Planter Products Analysis
+
+The `planter_roi_analysis.py` script cross-references planter parts and common issues data to rank products by return-on-investment potential.
+
+### ROI Scoring
+
+Each part is scored on four factors:
+
+| Factor | Description |
+|--------|-------------|
+| **Issue frequency** | Number of distinct issues that recommend this part |
+| **Severity weight** | Sum of severity weights (Critical=4, High=3, Medium=2, Low=1) |
+| **Price tier** | Higher price parts generate more revenue per sale |
+| **Model reach** | Parts compatible with more models have a wider market |
+
+### Usage
+
+```bash
+python planter_roi_analysis.py
+```
+
+### Output
+
+- `products/planter_high_roi_report.csv` - All planter parts ranked by ROI score
+- Console summary of top 15 products and category breakdown
+
+### Planter Product Lines Analyzed
+
+| Folder | Equipment |
+|--------|-----------|
+| `products/jd1720_planter/` | JD 1720 Planter |
+| `products/maximerge_xp_planter/` | MaxEmerge XP Planter (7200/7300 series) |
+
 ## Forum Mining Tool
 
 The `jd1720_forum_miner.py` script scrapes agricultural forums to identify common JD 1720 planter issues and the parts discussed in forum threads.
