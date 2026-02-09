@@ -13,6 +13,7 @@ NOTE:
 import argparse
 import os
 import re
+import sys
 import time
 import csv
 from dataclasses import dataclass
@@ -253,7 +254,7 @@ def main():
 
     if not results:
         print("No results. (Possibly blocked / login required / network issue.)")
-        return
+        sys.exit(1)
 
     threads_csv = os.path.join(out_dir, "jd1720_threads.csv")
     aggregate_csv = os.path.join(out_dir, "jd1720_aggregate.csv")
