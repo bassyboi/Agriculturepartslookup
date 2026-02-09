@@ -15,8 +15,6 @@ import os
 import re
 import time
 import csv
-import json
-import math
 from dataclasses import dataclass
 from collections import Counter, defaultdict
 from urllib.parse import urlparse

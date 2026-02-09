@@ -18,6 +18,7 @@ Outputs:
   (stdout summary with tier breakdown)
 """
 
+import argparse
 import csv
 import os
 import sys
@@ -26,8 +27,8 @@ from collections import defaultdict
 PRODUCTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "products")
 UPGRADES_CSV = os.path.join(PRODUCTS_DIR, "planter_performance_upgrades.csv")
 
-# Assumption for revenue calculation
-CORN_PRICE_PER_BU = 4.50
+# Default assumption for revenue calculation (overridable via --corn-price)
+DEFAULT_CORN_PRICE_PER_BU = 4.50
 
 
 def load_upgrades(csv_path):
@@ -58,7 +59,7 @@ def count_compatible_models(compat_str):
     return len([m.strip() for m in compat_str.replace("/", ",").split(",") if m.strip()])
 
 
-def compute_performance_roi(upgrades):
+def compute_performance_roi(upgrades, corn_price_per_bu):
     """
     Rank upgrades by planting performance ROI.
 
@@ -74,13 +75,13 @@ def compute_performance_roi(upgrades):
     """
     # Pre-compute normalizers
     max_revenue = max(
-        u["estimated_yield_gain_bu_ac"] * CORN_PRICE_PER_BU for u in upgrades
+        u["estimated_yield_gain_bu_ac"] * corn_price_per_bu for u in upgrades
     )
     max_payback = max(u["payback_acres"] for u in upgrades)
 
     results = []
     for u in upgrades:
-        revenue_per_ac = u["estimated_yield_gain_bu_ac"] * CORN_PRICE_PER_BU
+        revenue_per_ac = u["estimated_yield_gain_bu_ac"] * corn_price_per_bu
         inverse_payback = (1 - u["payback_acres"] / max_payback) * 100
         compat_count = count_compatible_models(u["planter_compatibility"])
         compat_bonus = min(compat_count * 8, 100)  # cap at 100
@@ -144,11 +145,11 @@ def write_report_csv(results, out_path):
             writer.writerow(row)
 
 
-def print_summary(results):
+def print_summary(results, corn_price_per_bu):
     """Print a human-readable summary."""
     print("=" * 100)
     print("  HIGH-ROI PLANTER PERFORMANCE UPGRADES")
-    print(f"  (corn @ ${CORN_PRICE_PER_BU:.2f}/bu)")
+    print(f"  (corn @ ${corn_price_per_bu:.2f}/bu)")
     print("=" * 100)
     print(
         f"{'Rank':<5} {'Tier':<12} {'Product':<32} {'Mfg':<22} "
@@ -201,6 +202,19 @@ def print_summary(results):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="High-ROI Planter Performance Upgrades Analysis")
+    parser.add_argument(
+        "--output-dir", "-o", default=None,
+        help="Directory to write CSV output (default: products/ folder)",
+    )
+    parser.add_argument(
+        "--corn-price", "-c", type=float, default=DEFAULT_CORN_PRICE_PER_BU,
+        help=f"Corn price per bushel for revenue calculation (default: ${DEFAULT_CORN_PRICE_PER_BU:.2f})",
+    )
+    args = parser.parse_args()
+
+    corn_price = args.corn_price
+
     if not os.path.exists(UPGRADES_CSV):
         print(f"Error: {UPGRADES_CSV} not found.", file=sys.stderr)
         sys.exit(1)
@@ -208,14 +222,16 @@ def main():
     upgrades = load_upgrades(UPGRADES_CSV)
     print(f"Loaded {len(upgrades)} planter performance upgrades\n")
 
-    results = compute_performance_roi(upgrades)
+    results = compute_performance_roi(upgrades, corn_price)
     results = assign_tiers(results)
 
-    out_csv = os.path.join(PRODUCTS_DIR, "planter_high_roi_report.csv")
+    out_dir = args.output_dir if args.output_dir else PRODUCTS_DIR
+    os.makedirs(out_dir, exist_ok=True)
+    out_csv = os.path.join(out_dir, "planter_high_roi_report.csv")
     write_report_csv(results, out_csv)
     print(f"Report written to: {out_csv}\n")
 
-    print_summary(results)
+    print_summary(results, corn_price)
 
 
 if __name__ == "__main__":
