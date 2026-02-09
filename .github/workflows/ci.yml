@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check Python syntax
+        run: python -m py_compile jd1720_forum_miner.py && python -m py_compile tractor_performance_roi_analysis.py && python -m py_compile planter_roi_analysis.py
+
+      - name: Run tractor ROI analysis
+        run: python tractor_performance_roi_analysis.py
+
+      - name: Run planter ROI analysis
+        run: python planter_roi_analysis.py

@@ -37,10 +37,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run forum miner
+        env:
+          URLS_FILE: ${{ github.event.inputs.urls_file }}
         run: |
           ARGS="--output-dir output"
-          if [ -n "${{ github.event.inputs.urls_file }}" ]; then
-            ARGS="$ARGS --urls-file ${{ github.event.inputs.urls_file }}"
+          if [ -n "$URLS_FILE" ]; then
+            ARGS="$ARGS --urls-file $URLS_FILE"
           fi
           python jd1720_forum_miner.py $ARGS
 
