@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+TRM-ISS-001,Display,GFX-1260 touchscreen unresponsive or laggy after software update,GFX-1260 Display,Factory reset and reinstall Precision-IQ from USB - check for latest firmware on Trimble support,High
+TRM-ISS-002,Display,GFX-750 display reboot loop at startup,GFX-750 Display,Verify power supply voltage (12V clean) - replace internal battery if date/time resets,Medium
+TRM-ISS-003,GNSS,NAV-900 losing RTK fix in tree lines or near buildings,NAV-900 GNSS Receiver,Check antenna cable connections - verify CenterPoint RTX subscription active - update firmware,High
+TRM-ISS-004,GNSS,NAV-500 SBAS corrections slow to converge,NAV-500 GNSS Receiver,Allow 15-20 min warm-up - verify clear sky view - check SBAS satellite availability in region,Medium
+TRM-ISS-005,Auto-Steer,EZ-Pilot Pro steering motor slipping on column,EZ-Pilot Pro Steering,Retorque motor clamp - inspect column adapter ring - verify correct adapter for tractor model,High
+TRM-ISS-006,Auto-Steer,EZ-Steer motor-on-wheel losing calibration,EZ-Steer System,Re-run steering calibration wizard - check friction wheel contact - inspect motor gear teeth,Medium
+TRM-ISS-007,Corrections,CenterPoint RTX accuracy degraded to decimeter,CenterPoint RTX Correction,Check subscription expiration - verify NAV-900 firmware supports latest RTX corrections,High
+TRM-ISS-008,Corrections,RangePoint RTX drifting more than 6 inches pass-to-pass,RangePoint RTX Correction,Normal for RangePoint tier - upgrade to CenterPoint for sub-inch - check antenna mounting,Low
+TRM-ISS-009,Rate Control,Field-IQ not detecting implement sections on ISOBUS,Field-IQ Crop Input Control,Verify ISOBUS cable connections - check implement TC configuration - update Field-IQ firmware,High
+TRM-ISS-010,Implement Guidance,TrueTracker hunting side-to-side on flat ground,TrueTracker Implement Steering,Re-calibrate implement steering - check hydraulic valve response time - verify hitch sensor,Medium
+TRM-ISS-011,Software,Trimble Ag Software sync failing - data stuck on display,Trimble Ag Software / GFX-1260,Check WiFi connection on display - verify Trimble account credentials - force sync from cloud,Medium
+TRM-ISS-012,Sensing,GreenSeeker readings inconsistent across boom width,GreenSeeker Crop Sensor,Clean sensor lenses - check mounting height (32 inches) - verify wiring connections,Medium
+TRM-ISS-013,Sensing,WeedSeeker 2 false triggers in heavy stubble,WeedSeeker 2,Adjust sensitivity threshold - raise sensor height - update detection firmware,Medium
+TRM-ISS-014,Yield Monitoring,YieldTrak yield map showing stripes or gaps,YieldTrak Yield Monitor,Re-calibrate with weigh wagon - check clean grain elevator sensor mounting - verify GPS,High
+TRM-ISS-015,Connectivity,CAN bus communication errors between display and receiver,GFX-1260 / NAV-900,Check CAN termination resistors - inspect cable for damage - verify baud rate settings,High

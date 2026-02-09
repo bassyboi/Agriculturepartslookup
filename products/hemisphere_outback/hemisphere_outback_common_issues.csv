@@ -1,0 +1,11 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+HEM-ISS-001,Display,Outback MAX display slow to boot or freezing,Outback MAX Display,Update firmware - check power supply for voltage drops - factory reset if needed,Medium
+HEM-ISS-002,GNSS,A321 Atlas corrections slow convergence time,Outback A321 GNSS Receiver,Allow 15-20 min convergence - verify Atlas subscription active - check antenna sky view,Medium
+HEM-ISS-003,GNSS,A222 SBAS guidance drifting more than expected,Outback A222 GNSS Receiver,Normal for SBAS level - reset A-B line periodically - upgrade to Atlas for better accuracy,Low
+HEM-ISS-004,Auto-Steer,eDriveX steering hunting side-to-side on straight runs,eDriveX Auto-Steer,Reduce steering aggressiveness parameter - check hydraulic response - recalibrate,High
+HEM-ISS-005,Auto-Steer,eDriveX not engaging - error code on display,eDriveX Auto-Steer,Check hydraulic connections - verify correct valve kit for tractor - inspect wiring harness,High
+HEM-ISS-006,Auto-Steer,eDriveTC motor slipping or buzzing without turning,eDriveTC Motor-on-Column,Retorque column clamp - inspect motor friction wheel - verify correct steering adapter,Medium
+HEM-ISS-007,Corrections,Atlas L-band correction dropouts,Atlas Correction Service / Atlas RTK,Check L-band antenna placement (clear south sky view) - verify subscription - recycle receiver,High
+HEM-ISS-008,Section Control,Outback section control valves not actuating,Outback Section Control,Check valve wiring connections - verify valve driver output - test valves with direct power,Medium
+HEM-ISS-009,Rate Control,Outback rate control overshooting target rate,Outback Rate Control,Recalibrate flow meter - check servo valve response time - adjust PID control parameters,Medium
+HEM-ISS-010,Cloud,Outback Connect sync not completing,Outback Connect Cloud,Verify WiFi connection - check account login credentials - reduce file size if large field,Low

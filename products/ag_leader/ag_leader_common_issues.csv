@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+AGL-ISS-001,Display,InCommand 1200 slow boot time exceeding 3 minutes,InCommand 1200 Display,Check for SD card corruption - update firmware - clear old field data to free storage,Medium
+AGL-ISS-002,Display,InCommand 800 touchscreen calibration drift,InCommand 800 Display,Recalibrate touchscreen from settings menu - if persistent replace touch digitizer,Medium
+AGL-ISS-003,GNSS,GPS 7500 RTK float instead of fix in open field,GPS 7500 GNSS Receiver,Verify base station link - check radio frequency and power - inspect antenna cable,High
+AGL-ISS-004,GNSS,GPS 6500 guidance line drifting through the day,GPS 6500 GNSS Receiver,Normal for SBAS correction level - upgrade to RTK for repeatability - re-set A-B line,Low
+AGL-ISS-005,Auto-Steer,SteerCommand overshooting line in headland turns,SteerCommand Auto-Steer,Reduce steering aggressiveness - check hydraulic oil level and condition - recalibrate,High
+AGL-ISS-006,Auto-Steer,OnTrac3 motor humming but not steering,OnTrac3 Assisted Steering,Check motor engagement clutch - verify steering calibration - inspect column adapter torque,Medium
+AGL-ISS-007,Rate Control,DirectCommand not communicating with ISOBUS planter,DirectCommand Rate Control,Check ISOBUS cable - verify implement TC number - update DirectCommand firmware,High
+AGL-ISS-008,Section Control,SurePoint sections not shutting off at boundaries,SurePoint Auto-Swath,Verify field boundary accuracy - check section valve wiring - update overlap settings,Medium
+AGL-ISS-009,Sensing,OptRx sensor readings erratic in low canopy,OptRx Crop Sensor,Verify sensor height (30-36 inches) - clean lens - check for condensation - recalibrate,Medium
+AGL-ISS-010,Software,SMS software crashing when loading large yield files,Ag Leader SMS Software,Update to latest version - increase PC RAM - split large files into smaller field boundaries,Medium
+AGL-ISS-011,Cloud,AgFiniti sync timeout - data stuck on display,AgFiniti Cloud Platform,Check WiFi signal strength - verify account credentials - force sync from display menu,Medium
+AGL-ISS-012,Yield Monitor,Yield monitor showing inconsistent bushels per acre,Yield Monitor Integration,Recalibrate with weigh wagon - check mass-flow sensor for buildup - verify moisture sensor,High
+AGL-ISS-013,Planter,SeedCommand electric drive motor overheating at high population,SeedCommand Population Control,Check motor ventilation - verify population within motor RPM limits - inspect wiring for chafe,High
+AGL-ISS-014,Planter,Hydraulic Down Force not holding pressure on rough ground,Hydraulic Down Force,Check hydraulic hose connections - verify accumulator charge - inspect row unit pivot,Medium
+AGL-ISS-015,Connectivity,CAN bus communication dropout between display and receiver,InCommand / GPS 7500,Inspect CAN cable at T-connectors - verify termination resistors - check for EMI near cables,High

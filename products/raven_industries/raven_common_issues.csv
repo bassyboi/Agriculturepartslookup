@@ -1,0 +1,13 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+RAV-ISS-001,Display,Viper 4+ screen freezing during field operation,Viper 4+ Display,Update to latest firmware - check power supply for voltage drops - replace SD card if corrupted,High
+RAV-ISS-002,Display,CR7 display not recognizing ISOBUS implement,CR7 Field Computer,Verify ISOBUS cable continuity - check implement UT version compatibility - power cycle both,Medium
+RAV-ISS-003,GNSS,RS1 slow RTK convergence time in morning,RS1 GNSS Receiver,Allow 5-10 min warm-up - check Slingshot cellular signal - verify antenna has clear sky view,Medium
+RAV-ISS-004,Auto-Steer,SmarTrax MD hunting or overcorrecting in turns,SmarTrax MD Auto-Steer,Re-calibrate steering sensitivity - check hydraulic valve response - verify line acquisition settings,High
+RAV-ISS-005,Auto-Steer,SmarTrax AT motor slipping on steering column,SmarTrax AT Auto-Steer,Retorque column clamp - check motor gear condition - verify correct adapter for tractor model,Medium
+RAV-ISS-006,Rate Control,Hawkeye nozzle PWM erratic spray pattern,Hawkeye Nozzle Control,Check nozzle wiring harness - verify system pressure - clean PWM valve seats - recalibrate,High
+RAV-ISS-007,Rate Control,AccuFlow servo valve not responding to rate changes,AccuFlow Rate Control,Check servo valve wiring - verify flow meter calibration - inspect valve for debris,High
+RAV-ISS-008,Corrections,Slingshot RTK losing fix in areas with poor cell coverage,Slingshot RTK Network,Check cellular antenna placement - verify data plan active - consider repeater or external antenna,High
+RAV-ISS-009,Data Management,Slingshot data sync failing between field and office,Slingshot Data Transfer,Verify cellular signal - check Slingshot account status - power cycle modem - re-pair display,Medium
+RAV-ISS-010,Machine Vision,VSN row guidance losing rows in heavy canopy,VSN Visual Guidance,Adjust camera angle - clean lens - check lighting conditions - verify row spacing settings,Medium
+RAV-ISS-011,Direct Injection,Sidekick Pro pump priming issues at startup,Sidekick Pro Injection System,Verify product in tank - check pump prime sequence - inspect check valves - bleed air from lines,Medium
+RAV-ISS-012,Connectivity,CAN bus errors between Viper 4+ and RS1,Viper 4+ / RS1,Check CAN termination - inspect cable at connectors - verify baud rate and node address settings,High

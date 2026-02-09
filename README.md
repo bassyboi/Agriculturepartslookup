@@ -33,6 +33,43 @@ All major tractor brands are organized by class. The `products/tractor_classes.c
 | **Claas** | Axion 900 | Row Crop (270-410 HP) | `products/claas_axion_900/` |
 | **Challenger** | MT800 | 4WD / Track (430-590 HP) | `products/challenger_mt800/` |
 
+Each tractor brand folder also includes a **`<brand>_performance_parts.csv`** with ranked aftermarket performance upgrades specific to that brand's production models — ECU tunes, turbo upgrades, tires, cooling, hydraulics, guidance, and more. Every part is verified to bolt on to the production tractor.
+
+## Precision Ag Brands
+
+Full product catalogs and known issues for all major precision agriculture technology brands:
+
+| Brand | Products Folder | Products | Key Categories |
+|-------|----------------|----------|----------------|
+| **Trimble** | `products/trimble_precision_ag/` | 15 | Displays, GNSS, auto-steer, corrections, rate control, sensors, yield monitoring |
+| **Raven Industries** | `products/raven_industries/` | 12 | Displays, GNSS, auto-steer, nozzle PWM, rate control, machine vision, autonomy |
+| **Ag Leader** | `products/ag_leader/` | 15 | Displays, GNSS, auto-steer, rate control, crop sensors, planter controls, yield monitoring |
+| **Topcon Agriculture** | `products/topcon_agriculture/` | 12 | Displays, GNSS, auto-steer, corrections, rate control, crop sensors, boom control |
+| **Precision Planting** | `products/precision_planting/` | 16 | Planter monitors, seed delivery, metering, downforce, depth, closing, fertilizer, sensing |
+| **Hemisphere / Outback** | `products/hemisphere_outback/` | 10 | Displays, GNSS, auto-steer, corrections, section control, rate control |
+| **Climate FieldView** | `products/climate_fieldview/` | 10 | Data collection, satellite imagery, analytics, seed advisor, yield analysis, API integration |
+| **Reichhardt** | `products/reichhardt_steering/` | 10 | Auto-steer (hydraulic & motor), ISOBUS controllers, valve kits (JD/CNH/AGCO/Claas), implement steering |
+
+### Precision Ag CSV Structure
+
+**`<brand>_products.csv`** - Product catalog:
+- `product_id` - Unique product identifier
+- `product_name` - Product name
+- `category` - Category (Display, Guidance, Rate Control, Sensing, etc.)
+- `description` - Detailed product description
+- `approx_price_usd` - Approximate price
+- `tractor_compatibility` or `equipment_compatibility` - Compatible equipment
+- `key_features` - Key features and capabilities
+- `connectivity` - Communication protocols (CAN bus, ISOBUS, WiFi, cellular, etc.)
+
+**`<brand>_common_issues.csv`** - Known issues and troubleshooting:
+- `issue_id` - Unique issue identifier
+- `issue_category` - Category (Display, GNSS, Auto-Steer, Rate Control, etc.)
+- `description` - Issue description
+- `affected_products` - Products involved
+- `recommended_action` - Troubleshooting steps and resolution
+- `severity` - Low / Medium / High / Critical
+
 ## Other Equipment
 
 | Folder | Equipment | Description |
