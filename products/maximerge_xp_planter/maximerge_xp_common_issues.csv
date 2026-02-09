@@ -1,0 +1,22 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+MEXPP-001,Seed Metering,Finger pickup wear causing skips and misses,Seed Finger Set / Backing Plate,AA37505;AA37506;AA37620,High
+MEXPP-002,Seed Metering,Doubles in seed trench from worn fingers,Seed Finger Pickup Assembly / Seed Finger Set,AA37474;AA37505,Medium
+MEXPP-003,Seed Metering,Seed tube plugging or bridging,Seed Tube / Seed Sensor,AA38110;AA38225,Medium
+MEXPP-004,Seed Metering,Inconsistent seed plate performance,Seed Plate / Backing Plate,AA39100;AA37620,Medium
+MEXPP-005,Seed Metering,Brush meter not clearing seed properly,Brush Meter Assembly,AA38340,Medium
+MEXPP-006,Row Unit,Uneven depth placement across rows,Gauge Wheel / Gauge Wheel Arm / Depth Wheel,BA28890;BA28450;BA28451;AA40455,High
+MEXPP-007,Row Unit,Seed trench not closing properly,Closing Wheel / Closing Wheel Spike,AA39770;AA39771,High
+MEXPP-008,Row Unit,Opener disc worn thin or chipped,Opener Disc,AA39660,Medium
+MEXPP-009,Row Unit,Parallel arms worn causing sloppy row unit,Parallel Arm Upper / Parallel Arm Lower,BA29310;BA29311,High
+MEXPP-010,Row Unit,Downforce spring fatigue / inconsistent pressure,Downforce Spring,AA40250,Medium
+MEXPP-011,Drive System,Ground drive chain stretched or jumping,Drive Chain / Drive Sprocket Set / Idler,AA41330;AA41440;AA41665,High
+MEXPP-012,Drive System,Transmission slipping or grinding,Transmission,AA42100,Critical
+MEXPP-013,Drive System,Row clutch not engaging or disengaging,Row Clutch,AA42210,High
+MEXPP-014,Drive System,Row unit bearing noise or failure,Bearing Kit,AA42770,Medium
+MEXPP-015,Fertilizer System,Fertilizer knife plugging in wet conditions,Fertilizer Opener / Fertilizer Tube,AA43550;AA43660,Medium
+MEXPP-016,Fertilizer System,Inaccurate fertilizer rate application,Fertilizer Meter,AA43775,High
+MEXPP-017,Electrical,Row harness intermittent or corroded connections,Row Harness / Wiring Harness Main,AA44225;AA44110,Medium
+MEXPP-018,Monitoring,Planter monitor inaccurate population count,Planter Monitor / Population Sensor,AA44340;AA44550,Medium
+MEXPP-019,Monitoring,Population sensor false readings,Population Sensor / Seed Sensor,AA44550;AA38225,Medium
+MEXPP-020,Toolbar,Row marker sticking or not folding,Marker Disc,AA45110,Low
+MEXPP-021,Toolbar,Row unit mounting pin worn causing wobble,Toolbar Pin,AA45225,Medium
