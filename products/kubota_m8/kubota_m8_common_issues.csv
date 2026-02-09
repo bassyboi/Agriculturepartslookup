@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+M8-001,Engine,DPF regen frequency excessive,DEF Filter / Turbocharger,1J500-78100;1J800-17010,High
+M8-002,Engine,Coolant leak at water pump,Water Pump / Thermostat,1C020-73030;19434-73020,Medium
+M8-003,Engine,Belt tensioner noise,Serpentine Belt / Alternator,K7721-97010;1C020-64012,Low
+M8-004,Transmission,KVT CVT creep speed inconsistent,KVT Transmission / Trans Filter,3C101-82200;HHK20-37160,High
+M8-005,Transmission,Transmission oil temp high in summer,Trans Oil Cooler,3C101-82400,Medium
+M8-006,Transmission,PTO engagement vibration,PTO Clutch Pack,3C101-25110,Medium
+M8-007,Axles/Steering,Front axle seal weep,Front Axle Assembly / Tie Rod,3C101-93100;3C101-62230,Medium
+M8-008,Axles/Steering,Steering sluggish response,Steering Valve,3C101-63530,Low
+M8-009,Hydraulics,Hydraulic pump cavitation noise,Hydraulic Pump / Filter,TC060-36440;HHK20-37960,Medium
+M8-010,Hydraulics,SCV coupler leak under pressure,SCV Coupler,3C101-82130,Low
+M8-011,Hydraulics,3-point hitch drift,Hitch Cylinder,3C101-84100,Medium
+M8-012,Electrical,K-Monitor display lag,K-Monitor Display,3C101-75100,Medium
+M8-013,Electrical,GPS accuracy issues in valleys,GPS Receiver / Auto Steer Kit,3C101-75200;3C101-75300,Medium
+M8-014,Cab,HVAC blower motor weak,Cab Air Filter / Fresh Air Filter,6A100-83200;6A100-83201,Low
+M8-015,Engine,Air filter plugging in silty soil,Air Filter Outer / Inner,TC422-93240;TC422-93241,Low

@@ -1,0 +1,13 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+TOP-ISS-001,Display,X35 console Horizon software crash during boundary recording,X35 Console,Update Horizon to latest version - check SD card integrity - reduce active map layers,High
+TOP-ISS-002,Display,X25 touchscreen unresponsive in cold temperatures,X25 Console,Allow cab to warm before use - check display operating temp range - update firmware,Medium
+TOP-ISS-003,GNSS,AGI-4 dual antenna heading initialization slow,AGI-4 GNSS Receiver,Verify antenna spacing correct (1 meter min) - check cable connections - clear obstructions,Medium
+TOP-ISS-004,GNSS,AGI-3 losing SBAS lock intermittently,AGI-3 GNSS Receiver,Check antenna cable for damage - verify SBAS satellite visible - update firmware,Medium
+TOP-ISS-005,Auto-Steer,AES-35 hydraulic steering jerky on engage,AES-35 Auto-Steer,Recalibrate steering gains - check hydraulic oil level and temp - verify valve kit correct,High
+TOP-ISS-006,Auto-Steer,System 350 motor slipping on steering column,System 350 Auto-Steer,Retorque column clamp - inspect adapter ring - check motor gear teeth for wear,Medium
+TOP-ISS-007,Corrections,TopNET Live accuracy dropping to decimeter level,TopNET Live Corrections,Verify subscription active - check cellular/satellite signal - recycle receiver power,High
+TOP-ISS-008,Rate Control,Apollo section control valves slow to respond,Apollo Rate Control,Check valve wiring - verify CAN communication - inspect valve seats for debris,Medium
+TOP-ISS-009,Sensing,CropSpec sensor readings inconsistent across passes,CropSpec Crop Sensor,Clean optical windows - check mounting height consistency - recalibrate baseline,Medium
+TOP-ISS-010,Boom Control,Norac ultrasonic sensors giving false readings in tall stubble,Norac Boom Height Control,Adjust sensor angle - set minimum boom height - switch to crop-sensing mode if available,Medium
+TOP-ISS-011,Cloud,Topcon Ag Cloud sync timeout during large file upload,Topcon Agriculture Cloud,Check WiFi bandwidth - reduce file size by splitting fields - verify cloud account status,Low
+TOP-ISS-012,Yield Monitor,Yield monitor calibration drifting during long harvest days,Yield Monitoring System,Recalibrate every 4-6 loads - check mass-flow sensor for grain dust buildup,Medium

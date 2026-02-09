@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+MAG-001,Engine,SCR / DEF system regen faults and derates,DEF Filter / Turbocharger,84390267;87803192,High
+MAG-002,Engine,Coolant leak at water pump seal,Water Pump / Thermostat,87802496;87800789,High
+MAG-003,Engine,Belt tensioner failure and squealing,Serpentine Belt / Alternator,87803500;84468120,Medium
+MAG-004,Transmission,CVXDrive CVT creep or shudder at low speed,CVT Transmission / Trans Filter,84468234;84468010,High
+MAG-005,Transmission,Full Powershift harsh upshift 3-4,Powershift Transmission / Trans Cooler,84195675;84468011,High
+MAG-006,Transmission,PTO clutch slipping under heavy load,PTO Clutch Pack,84195680,Medium
+MAG-007,Axles/Steering,MFWD axle seal leak at hub,Front Axle Assembly / Tie Rod,84347336;84195700,Medium
+MAG-008,Axles/Steering,Steering drift or slow return to center,Steering Valve,84239359,Medium
+MAG-009,Hydraulics,Hydraulic pump cavitation whine,Hydraulic Pump / Filter,84468050;84468051,High
+MAG-010,Hydraulics,SCV couplers leaking under pressure,SCV Coupler,84239400,Low
+MAG-011,Hydraulics,3-point hitch cylinder drift,Hitch Cylinder,84347350,Medium
+MAG-012,Electrical,AFS Pro display freezing or rebooting,AFS Pro 1200,84412300,Medium
+MAG-013,Electrical,AccuGuide GPS signal dropouts,AccuGuide Receiver / Steering Kit,84593410;84593480,High
+MAG-014,Cab,HVAC blend door actuator failure,Cab Air Filter / Fresh Air Filter,87683050;87683051,Low
+MAG-015,Engine,Air filter restriction alarm in dusty conditions,Air Filter Outer / Inner,87682999;87683000,Low

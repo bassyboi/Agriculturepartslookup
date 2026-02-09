@@ -1,0 +1,33 @@
+part_number,part_name,category,description,compatibility,price_usd
+84346806,Engine Oil Filter,Engine,Engine oil filter element,T8.320 / T8.350 / T8.380 / T8.410 / T8.435,24.00
+84565986,Fuel Filter Primary,Engine,Primary fuel filter / water separator,T8 Series (FPT Cursor 9),30.00
+84565987,Fuel Filter Secondary,Engine,Secondary fuel filter element,T8 Series (FPT Cursor 9),34.00
+87720925,Air Filter Outer,Engine,Engine air filter - outer element,T8 Series,85.00
+87720926,Air Filter Inner,Engine,Engine air filter - inner safety element,T8 Series,58.00
+84390500,DEF Filter,Engine,Diesel exhaust fluid filter,T8 Series (Tier 4B),40.00
+87801800,Turbocharger,Engine,Turbocharger assembly - variable geometry,T8.380 / T8.410 / T8.435,3650.00
+87801200,Water Pump,Engine,Engine coolant water pump,T8 Series,510.00
+87801300,Thermostat,Engine,Engine thermostat assembly,T8 Series,68.00
+87801900,Serpentine Belt,Engine,Engine accessory drive belt,T8 Series,98.00
+84467200,CVT Transmission,Transmission,Auto Command CVT transmission - reman,T8.380 AC / T8.410 AC / T8.435 AC,9400.00
+84467100,Ultra Command Transmission,Transmission,Ultra Command powershift transmission - reman,T8.320 UC / T8.350 UC,8000.00
+84467210,Transmission Filter,Transmission,Transmission oil filter element,T8 Series,46.00
+84467220,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,T8 Series,920.00
+84196200,PTO Clutch Pack,Transmission,PTO clutch pack assembly - 1000 RPM,T8 Series,1380.00
+84347100,Front Axle Assembly,Axles/Steering,SuperSteer MFWD front axle,T8 Series,5400.00
+84239100,Steering Valve,Axles/Steering,Steering control valve - orbital,T8 Series,800.00
+84195500,Tie Rod Assembly,Axles/Steering,Outer tie rod end - SuperSteer,T8 Series,160.00
+84467300,Hydraulic Pump,Hydraulics,Main hydraulic pump - closed center,T8 Series,2550.00
+84467310,Hydraulic Filter,Hydraulics,Hydraulic system return filter,T8 Series,40.00
+84239200,SCV Coupler,Hydraulics,Electronic SCV quick coupler,T8 Series,88.00
+84347200,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder,T8 Series,700.00
+84565800,IntelliView IV,Electrical,IntelliView IV display monitor,T8 Series (2020+),2950.00
+84593200,PLM Receiver,Electrical,PLM GNSS receiver,T8 Series,4300.00
+87721100,Cab Air Filter,Cab,Cab recirculation air filter,T8 Series,36.00
+87721101,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,T8 Series,44.00
+84467400,Seat Assembly,Cab,Comfort Ride seat - premium leather,T8 Series,1900.00
+84593250,LED Work Light Kit,Electrical,Premium LED light package,T8 Series,460.00
+84467450,Alternator,Electrical,200 amp alternator assembly,T8 Series,670.00
+84347300,Front Weight Bracket,Ballast,Front weight mounting bracket,T8 Series,395.00
+84239300,Rear Wheel Weight,Ballast,Rear wheel weight - 1000 lb,T8 Series,455.00
+84593290,PLM Steering Kit,Guidance,PLM automated steering system,T8 Series,3300.00

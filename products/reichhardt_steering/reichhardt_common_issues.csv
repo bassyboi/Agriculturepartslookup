@@ -1,0 +1,12 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+RCH-ISS-001,Auto-Steer,PSR ISO steering overcorrecting at high speed,PSR ISO Auto-Steer,Reduce steering gain parameter - check hydraulic oil temp - recalibrate at field speed,High
+RCH-ISS-002,Auto-Steer,PSR ISO not engaging - ISOBUS error on display,PSR ISO Auto-Steer,Verify ISOBUS cable connections - check steering controller power - update controller firmware,High
+RCH-ISS-003,Auto-Steer,PSR Top motor slipping on steering column,PSR Top Auto-Steer,Retorque column clamp - verify correct adapter for tractor model - inspect motor gear,Medium
+RCH-ISS-004,Auto-Steer,PSR Top motor buzzing but not turning wheel,PSR Top Auto-Steer,Check motor engagement mechanism - verify power supply adequate - inspect column adapter fit,Medium
+RCH-ISS-005,Controller,ISOBUS controller not detected by third-party display,ISOBUS Steering Controller,Verify ISOBUS termination - check controller node address not conflicting - update firmware,High
+RCH-ISS-006,Valve Kit,JD valve kit hydraulic leak at T-fitting,Hydraulic Valve Kit JD,Retorque fittings - check O-rings - verify correct fitting size for JD model year,Medium
+RCH-ISS-007,Valve Kit,CNH valve kit slow steering response,Hydraulic Valve Kit CNH,Check hydraulic oil level - verify valve spool not sticking - bleed air from steering circuit,Medium
+RCH-ISS-008,Valve Kit,AGCO valve kit causing steering wheel kick on disengage,Hydraulic Valve Kit AGCO,Adjust valve transition timing - check return-to-manual speed parameter - update controller,Medium
+RCH-ISS-009,Sensor,Wheel angle sensor reading drift over time,Wheel Angle Sensor,Re-zero sensor on straight - check mounting bracket tight - inspect for metal debris near sensor,Medium
+RCH-ISS-010,Implement Steering,PSR Implement steering hunting in soft soil,Implement Steering PSR,Reduce implement steering gain - check hydraulic cylinder response - verify GPS accuracy,Medium
+RCH-ISS-011,Manual Aid,Touch Steer haptic feedback too weak or too strong,Touch Steer Controller,Adjust feedback intensity in display settings - check knob mounting - verify CAN communication,Low

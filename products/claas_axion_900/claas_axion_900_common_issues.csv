@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+AX900-001,Engine,SCR aftertreatment fault codes and derates,DEF Filter / Turbocharger,0011459200;0011459220,High
+AX900-002,Engine,Coolant seep at water pump seal,Water Pump / Thermostat,0011459230;0011459240,High
+AX900-003,Engine,Belt squeal and tensioner wear,Serpentine Belt / Alternator,0011459250;0011463060,Medium
+AX900-004,Transmission,CMATIC CVT shudder at direction changes,CMATIC CVT / Trans Filter,0011460010;0011460020,High
+AX900-005,Transmission,CVT overheating under prolonged draft,Trans Oil Cooler,0011460030,High
+AX900-006,Transmission,PTO engagement vibration,PTO Clutch Pack,0011460040,Medium
+AX900-007,Axles/Steering,Front axle suspension leak,Front Axle Assembly / Tie Rod,0011461010;0011461030,Medium
+AX900-008,Axles/Steering,Steering wander on road,Steering Valve,0011461020,Medium
+AX900-009,Hydraulics,Hydraulic pump noise at high demand,Hydraulic Pump / Filter,0011462010;0011462020,High
+AX900-010,Hydraulics,SCV electronic valve delayed response,SCV Coupler,0011462030,Low
+AX900-011,Hydraulics,3-point hitch creep under load,Hitch Cylinder,0011462040,Medium
+AX900-012,Electrical,CEBIS terminal software freeze,CEBIS Terminal,0011463010,Medium
+AX900-013,Electrical,GPS Pilot signal dropout,GPS Pilot Receiver / Steering Kit,0011463020;0011463070,High
+AX900-014,Cab,HVAC filter restriction poor airflow,Cab Air Filter / Fresh Air Filter,0011463030;0011463031,Low
+AX900-015,Engine,Air filter collapse in heavy dust,Air Filter Outer / Inner,0011459180;0011459181,Low

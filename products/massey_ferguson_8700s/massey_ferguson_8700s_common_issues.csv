@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+MF8700-001,Engine,SCR aftertreatment derate events,DEF Filter / Turbocharger,ACW4616920;ACW4617000,High
+MF8700-002,Engine,Coolant leak at water pump seal face,Water Pump / Thermostat,ACW4617010;ACW4617020,High
+MF8700-003,Engine,Belt tensioner failure,Serpentine Belt / Alternator,ACW4617030;ACW4621050,Medium
+MF8700-004,Transmission,Dyna-VT CVT shudder at creep speed,Dyna-VT CVT / Trans Filter,ACW4618000;ACW4618010,High
+MF8700-005,Transmission,CVT oil temperature high in hot weather,Trans Oil Cooler,ACW4618020,High
+MF8700-006,Transmission,PTO engagement vibration,PTO Clutch Pack,ACW4618030,Medium
+MF8700-007,Axles/Steering,Front axle suspension strut leak,Front Axle Assembly / Tie Rod,ACW4619000;ACW4619020,Medium
+MF8700-008,Axles/Steering,Steering return spring weak,Steering Valve,ACW4619010,Medium
+MF8700-009,Hydraulics,Hydraulic pump whine at high RPM,Hydraulic Pump / Filter,ACW4620000;ACW4620010,High
+MF8700-010,Hydraulics,SCV joystick response lag,SCV Coupler,ACW4620020,Low
+MF8700-011,Hydraulics,3-point hitch cylinder creep,Hitch Cylinder,ACW4620030,Medium
+MF8700-012,Electrical,Datatronic display intermittent blackout,Datatronic 5,ACW4621000,Medium
+MF8700-013,Electrical,Auto-Guide GPS signal dropout,Auto-Guide Receiver / Steering Kit,ACW4621010;ACW4621060,High
+MF8700-014,Cab,HVAC poor airflow with clogged filters,Cab Air Filter / Fresh Air Filter,ACW4621020;ACW4621021,Low
+MF8700-015,Engine,Air filter restriction early in dusty soil,Air Filter Outer / Inner,ACW4616900;ACW4616901,Low

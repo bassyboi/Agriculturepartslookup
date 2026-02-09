@@ -1,0 +1,36 @@
+part_number,part_name,category,description,compatibility,price_usd
+84346900,Engine Oil Filter,Engine,Engine oil filter element,T9.435 / T9.480 / T9.530 / T9.565 / T9.600 / T9.645,28.00
+84566100,Fuel Filter Primary,Engine,Primary fuel filter / water separator,T9 Series (FPT Cursor 13),36.00
+84566101,Fuel Filter Secondary,Engine,Secondary fuel filter element,T9 Series (FPT Cursor 13),40.00
+87722100,Air Filter Outer,Engine,Engine air filter - outer element,T9 Series,108.00
+87722101,Air Filter Inner,Engine,Engine air filter - inner safety element,T9 Series,72.00
+84390600,DEF Filter,Engine,Diesel exhaust fluid filter,T9 Series (Tier 4B),44.00
+87805100,Turbocharger,Engine,Compound turbocharger assembly,T9.565 / T9.600 / T9.645,5000.00
+87804800,Water Pump,Engine,Engine coolant water pump,T9 Series,600.00
+87805200,Injector Assembly,Engine,Fuel injector - single cylinder,T9 Series,465.00
+87805300,Head Gasket Set,Engine,Cylinder head gasket set - complete,T9 Series,720.00
+84470100,Powershift Transmission,Transmission,16F/2R full powershift transmission - reman,T9 Series,12200.00
+84470110,Transmission Filter,Transmission,Transmission oil filter element,T9 Series,55.00
+84470120,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,T9 Series,1300.00
+84197100,PTO Clutch Pack,Transmission,1000 RPM PTO clutch pack assembly,T9 Series,1780.00
+84470200,Final Drive LH,Drivetrain,Left-hand planetary final drive assembly,T9 Series,5600.00
+84470201,Final Drive RH,Drivetrain,Right-hand planetary final drive assembly,T9 Series,5600.00
+84470210,Differential Lock,Drivetrain,Differential lock actuator assembly,T9 Series,950.00
+84501100,Track Roller,Drivetrain,Track frame roller - single (SmartTrax),T9 SmartTrax Series,400.00
+84501200,Track Belt,Drivetrain,Rubber track belt - 30 inch (SmartTrax),T9 SmartTrax Series,7000.00
+84501300,Track Idler,Drivetrain,Front track idler wheel (SmartTrax),T9 SmartTrax Series,1300.00
+84470300,Hydraulic Pump,Hydraulics,Main hydraulic pump - triple section,T9 Series,3650.00
+84470310,Hydraulic Filter,Hydraulics,Hydraulic system return filter,T9 Series,46.00
+84470320,SCV Coupler,Hydraulics,Selective control valve quick coupler,T9 Series,95.00
+84470330,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder - Cat 4N,T9 Series,1050.00
+84470340,Drawbar Assembly,Hydraulics,Heavy-duty swinging drawbar,T9 Series,1220.00
+84566200,IntelliView IV,Electrical,IntelliView IV display monitor,T9 Series (2020+),3200.00
+84593800,PLM Receiver,Electrical,PLM GNSS receiver,T9 Series,4300.00
+84470400,Alternator,Electrical,240 amp alternator assembly,T9 Series,800.00
+84470410,Wiring Harness Main,Electrical,Main chassis wiring harness,T9 Series,1580.00
+87722200,Cab Air Filter,Cab,Cab recirculation air filter,T9 Series,40.00
+87722201,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,T9 Series,48.00
+84470450,Seat Assembly,Cab,Comfort Ride III cab seat - leather,T9 Series,2250.00
+84593850,LED Light Package,Electrical,Premium LED work light package,T9 Series,700.00
+84593880,PLM Steering Kit,Guidance,PLM automated steering system,T9 Series,3400.00
+84347600,Front Ballast Group,Ballast,Front weight mounting frame,T9 Series,650.00

@@ -1,0 +1,13 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+CFV-ISS-001,Hardware,FieldView Drive not connecting to equipment CAN bus,FieldView Drive,Verify correct CAN port on equipment - check cable for damage - restart Drive and equipment,High
+CFV-ISS-002,Hardware,FieldView Drive losing cellular connection in field,FieldView Drive,Check cellular coverage in area - data buffers locally and syncs later - verify data plan active,Medium
+CFV-ISS-003,Data Collection,Planting data incomplete - missing rows or sections,FieldView Drive / FieldView Cab App,Verify CAN bus connection stable - check planter monitor outputting ISO data - restart Drive,High
+CFV-ISS-004,Data Collection,Harvest yield data not recording from combine,FieldView Drive,Confirm combine yield monitor is outputting CAN data - check Drive firmware - verify combine compatibility,High
+CFV-ISS-005,Imagery,Field Health satellite imagery outdated or cloudy,R7 Field Monitoring / Field Health Imagery,Normal during cloudy periods - imagery updates depend on clear satellite passes - check for recent passes,Low
+CFV-ISS-006,Analytics,Yield Analysis maps showing stripe artifacts,Yield Analysis,Apply data cleaning filters in Yield Analysis tool - remove combine header-up passes - calibrate yield monitor,Medium
+CFV-ISS-007,Prescriptions,Seed Advisor VRS prescription not loading to planter,Seed Advisor / FieldView Cab App,Export prescription as shapefile - load via USB if wireless fails - verify planter monitor compatibility,Medium
+CFV-ISS-008,Mobile App,FieldView Cab App crashing on iPad during operation,FieldView Cab App,Update app to latest version - restart iPad - clear app cache - ensure iOS version supported,Medium
+CFV-ISS-009,Integration,Industry Connect not syncing with JD Operations Center,Industry Connect API,Re-authorize connection in FieldView settings - verify JD Operations Center account linked,Medium
+CFV-ISS-010,Integration,Industry Connect data mismatch with Trimble Ag Software,Industry Connect API,Check field boundary alignment between platforms - verify coordinate systems match,Low
+CFV-ISS-011,Subscription,FieldView account showing wrong acreage or fields,FieldView Plus / Prime Subscription,Verify field boundaries in account - contact support for acreage corrections - re-draw boundaries,Low
+CFV-ISS-012,Data Management,Large farm data taking hours to sync to cloud,FieldView Drive / FieldView Plus,Use WiFi instead of cellular for large uploads - sync overnight - verify no duplicate fields,Medium

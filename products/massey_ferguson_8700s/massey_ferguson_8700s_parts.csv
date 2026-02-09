@@ -1,0 +1,32 @@
+part_number,part_name,category,description,compatibility,price_usd
+ACW4616870,Engine Oil Filter,Engine,Engine oil filter element,MF 8727S / 8730S / 8732S / 8735S / 8737S,25.00
+ACW4616880,Fuel Filter Primary,Engine,Primary fuel filter / water separator,8700S Series (AGCO Power 7.4L),31.00
+ACW4616881,Fuel Filter Secondary,Engine,Secondary fuel filter element,8700S Series (AGCO Power 7.4L),35.00
+ACW4616900,Air Filter Outer,Engine,Engine air filter - outer element,8700S Series,88.00
+ACW4616901,Air Filter Inner,Engine,Engine air filter - inner safety element,8700S Series,58.00
+ACW4616920,DEF Filter,Engine,Diesel exhaust fluid filter,8700S Series (Tier 4 Final),41.00
+ACW4617000,Turbocharger,Engine,Variable geometry turbocharger assembly,MF 8735S / 8737S,3900.00
+ACW4617010,Water Pump,Engine,Engine coolant water pump,8700S Series,530.00
+ACW4617020,Thermostat,Engine,Engine thermostat assembly,8700S Series,68.00
+ACW4617030,Serpentine Belt,Engine,Engine accessory drive belt,8700S Series,100.00
+ACW4618000,Dyna-VT CVT,Transmission,Dyna-VT CVT transmission - reman,8700S Dyna-VT Series,10200.00
+ACW4618010,Transmission Filter,Transmission,Transmission oil filter element,8700S Series,48.00
+ACW4618020,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,8700S Series,980.00
+ACW4618030,PTO Clutch Pack,Transmission,PTO clutch pack assembly - 1000 RPM,8700S Series,1450.00
+ACW4619000,Front Axle Assembly,Axles/Steering,MFWD front axle assembly - suspended,8700S Series,5500.00
+ACW4619010,Steering Valve,Axles/Steering,Steering control valve - orbital,8700S Series,830.00
+ACW4619020,Tie Rod Assembly,Axles/Steering,Outer tie rod end - MFWD,8700S Series,155.00
+ACW4620000,Hydraulic Pump,Hydraulics,Main hydraulic pump - load sensing piston,8700S Series,2650.00
+ACW4620010,Hydraulic Filter,Hydraulics,Hydraulic system return filter,8700S Series,42.00
+ACW4620020,SCV Coupler,Hydraulics,Electronic SCV quick coupler,8700S Series,92.00
+ACW4620030,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder,8700S Series,730.00
+ACW4621000,Datatronic 5,Electrical,Datatronic 5 display terminal,8700S Series,3100.00
+ACW4621010,Auto-Guide Receiver,Electrical,Auto-Guide 3000 GNSS receiver,8700S Series,4400.00
+ACW4621020,Cab Air Filter,Cab,Cab recirculation air filter,8700S Series,37.00
+ACW4621021,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,8700S Series,44.00
+ACW4621030,Seat Assembly,Cab,Dyna-VT armrest seat - premium leather,8700S Series,2000.00
+ACW4621040,LED Work Light Kit,Electrical,Premium LED light package,8700S Series,500.00
+ACW4621050,Alternator,Electrical,200 amp alternator assembly,8700S Series,700.00
+ACW4622000,Front Weight Bracket,Ballast,Front weight mounting bracket,8700S Series,415.00
+ACW4622010,Rear Wheel Weight,Ballast,Rear wheel weight - 1000 lb,8700S Series,460.00
+ACW4621060,Auto-Guide Steering Kit,Guidance,Auto-Guide automated steering system,8700S Series,3500.00

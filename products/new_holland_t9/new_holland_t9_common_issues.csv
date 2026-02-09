@@ -1,0 +1,17 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+T9-001,Engine,SCR system derate and regen failures,DEF Filter / Turbocharger,84390600;87805100,High
+T9-002,Engine,Coolant leak at water pump flange,Water Pump,87804800,High
+T9-003,Engine,Injector sticking causing rough idle,Injector Assembly / Head Gasket,87805200;87805300,Critical
+T9-004,Transmission,Powershift clutch wear - harsh shifts,Powershift Transmission / Filter,84470100;84470110,High
+T9-005,Transmission,Transmission overheating in heavy tillage,Trans Oil Cooler,84470120,High
+T9-006,Transmission,PTO engagement shudder,PTO Clutch Pack,84197100,Medium
+T9-007,Drivetrain,Final drive seal leak at planetary,Final Drive LH / RH,84470200;84470201,High
+T9-008,Drivetrain,Differential lock slow to engage,Differential Lock,84470210,Medium
+T9-009,Drivetrain,SmartTrax roller bearing failure,Track Roller / Idler,84501100;84501300,High
+T9-010,Drivetrain,Track belt edge wear or delamination,Track Belt,84501200,Critical
+T9-011,Hydraulics,Hydraulic pump cavitation under load,Hydraulic Pump / Filter,84470300;84470310,High
+T9-012,Hydraulics,3-point hitch drift with heavy equipment,Hitch Cylinder,84470330,Medium
+T9-013,Electrical,IntelliView display communication errors,IntelliView IV,84566200,Medium
+T9-014,Electrical,PLM GPS signal intermittent loss,PLM Receiver / Steering Kit,84593800;84593880,High
+T9-015,Electrical,Wiring harness chafe point near exhaust,Wiring Harness Main,84470410,High
+T9-016,Cab,Cab pressurization leak - dust entry,Cab Air Filter / Fresh Air Filter,87722200;87722201,Medium

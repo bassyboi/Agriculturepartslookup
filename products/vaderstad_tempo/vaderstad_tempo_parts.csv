@@ -1,0 +1,28 @@
+part_number,part_name,category,description,compatibility,price_usd
+483560,Seed Meter Assembly,Seed Metering,PowerShoot meter unit - complete,Tempo V / Tempo L / Tempo F,820.00
+483570,Seed Disc,Seed Metering,Precision seed disc - corn,Tempo V / Tempo L,95.00
+483571,Seed Disc Soybean,Seed Metering,Precision seed disc - soybean,Tempo V / Tempo L,95.00
+483580,Vacuum Seal,Seed Metering,Meter chamber seal ring,Tempo V / Tempo L / Tempo F,20.00
+483590,PowerShoot Cartridge,Seed Delivery,PowerShoot seed delivery cartridge,Tempo V / Tempo L / Tempo F,450.00
+483600,Seed Sensor,Monitoring,High-speed seed sensor - per row,Tempo V / Tempo L / Tempo F,210.00
+484100,Gauge Wheel Arm,Row Unit,Gauge wheel arm assembly,Tempo V / Tempo L / Tempo F,165.00
+484110,Gauge Wheel Tire,Row Unit,Gauge wheel tire and rim,Tempo V / Tempo L / Tempo F,98.00
+484120,Closing Wheel,Row Unit,Standard press wheel assembly,Tempo V / Tempo L / Tempo F,85.00
+484121,Closing Wheel V-Press,Row Unit,V-press closing wheel set,Tempo V / Tempo L / Tempo F,125.00
+484130,Opener Disc,Row Unit,Single disc opener - 15 inch,Tempo V / Tempo L / Tempo F,75.00
+484140,Depth Adjustment,Row Unit,Hydraulic depth control actuator,Tempo V / Tempo L / Tempo F,380.00
+484150,Parallel Arm,Row Unit,Parallel linkage arm set,Tempo V / Tempo L / Tempo F,205.00
+484160,Downforce Actuator,Row Unit,Hydraulic downforce actuator,Tempo V / Tempo L / Tempo F,650.00
+484170,Seed Firmer,Row Unit,Factory in-furrow seed firmer,Tempo V / Tempo L / Tempo F,35.00
+485100,Fertilizer Coulter,Fertilizer System,Fertilizer placement coulter,Tempo F (fertilizer model),185.00
+485110,Fertilizer Meter,Fertilizer System,Volumetric fertilizer metering unit,Tempo F,310.00
+486100,Row Cleaner,Row Cleaning,Hydraulic row cleaner with auto-adjust,Tempo V / Tempo L / Tempo F,420.00
+487100,Toolbar Frame,Frame / Toolbar,Center toolbar frame section,Tempo V (6-12 row),2200.00
+487110,Wing Section,Frame / Toolbar,Wing frame section - per side,Tempo L / Tempo F (16-24 row),1800.00
+487120,Transport Lock,Frame / Toolbar,Transport lock mechanism,Tempo V / Tempo L / Tempo F,220.00
+488100,Electric Drive Motor,Drive System,Individual row electric drive motor,Tempo V / Tempo L / Tempo F,980.00
+488110,Drive Controller,Drive System,Row drive controller ECU,Tempo V / Tempo L / Tempo F,480.00
+489100,E-Control Display,Monitoring,Vaderstad E-Control touchscreen display,Tempo V / Tempo L / Tempo F,3500.00
+489110,Harness Main,Electrical,Main planter CAN bus harness,Tempo V / Tempo L / Tempo F,720.00
+489120,Row Harness,Electrical,Individual row wiring harness,Tempo V / Tempo L / Tempo F,98.00
+489130,GPS Module,Electrical,Section control GPS module,Tempo V / Tempo L / Tempo F,1200.00

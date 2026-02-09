@@ -1,0 +1,17 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+F1000-001,Engine,SCR / AdBlue aftertreatment derates,DEF Filter / Turbocharger,F101502070;F101502080,High
+F1000-002,Engine,Coolant leak at water pump housing,Water Pump,F101502090,High
+F1000-003,Engine,Injector failure causing misfire,Injector Assembly / Head Gasket,F101502100;F101502110,Critical
+F1000-004,Transmission,Vario CVT slip at high load,VarioDrive CVT / Trans Filter,F101504010;F101504020,High
+F1000-005,Transmission,CVT overheating during tillage,Trans Oil Cooler,F101504030,High
+F1000-006,Transmission,PTO engagement vibration at load,PTO Clutch Pack,F101504040,Medium
+F1000-007,Drivetrain,Final drive seal failure,Final Drive LH / RH,F101506010;F101506011,High
+F1000-008,Drivetrain,Differential lock delayed engagement,Differential Lock,F101506020,Medium
+F1000-009,Drivetrain,Track roller bearing failure (Vario MT),Track Roller / Idler,F101506030;F101506050,High
+F1000-010,Drivetrain,Track belt delamination or cracking,Track Belt,F101506040,Critical
+F1000-011,Hydraulics,Hydraulic pump cavitation at high demand,Hydraulic Pump / Filter,F101508010;F101508020,High
+F1000-012,Hydraulics,3-point hitch drift with heavy implement,Hitch Cylinder,F101508040,Medium
+F1000-013,Electrical,Varioterminal communication errors,Varioterminal,F101510010,Medium
+F1000-014,Electrical,VarioGuide GPS intermittent loss,VarioGuide Receiver / Steering Kit,F101510020;F101510080,High
+F1000-015,Electrical,Wiring harness chafe near turbo heat shield,Wiring Harness Main,F101510040,High
+F1000-016,Cab,Cab seal failure allowing dust ingress,Cab Air Filter / Fresh Air Filter,F101510050;F101510051,Medium

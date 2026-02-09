@@ -1,0 +1,27 @@
+part_number,part_name,category,description,compatibility,price_usd
+10201A,Seed Meter Assembly,Seed Metering,Monosem vacuum meter unit - complete,NG Plus 4 / NG Plus ME,750.00
+10205A,Seed Disc,Seed Metering,Precision vacuum seed disc - corn,NG Plus 4,90.00
+10206A,Seed Disc Soybean,Seed Metering,Precision vacuum seed disc - soybean,NG Plus 4,90.00
+10210A,Vacuum Seal,Seed Metering,Meter chamber vacuum seal ring,NG Plus 4 / NG Plus ME,18.00
+10215A,Singulator,Seed Metering,Mechanical singulation finger assembly,NG Plus 4,45.00
+10220A,Seed Tube,Seed Delivery,Seed delivery tube,NG Plus 4 / NG Plus ME,65.00
+10225A,Seed Sensor,Monitoring,Optical seed sensor - per row,NG Plus 4 / NG Plus ME,190.00
+20101A,Gauge Wheel Arm,Row Unit,Gauge wheel arm assembly,NG Plus 4 / NG Plus ME,158.00
+20110A,Gauge Wheel Tire,Row Unit,Gauge wheel tire and rim,NG Plus 4 / NG Plus ME,95.00
+20120A,Closing Wheel,Row Unit,Standard press wheel / closing wheel,NG Plus 4 / NG Plus ME,78.00
+20121A,Closing Wheel Spiked,Row Unit,Spiked closing wheel,NG Plus 4 / NG Plus ME,115.00
+20130A,Opener Disc,Row Unit,Double disc opener - 13 inch,NG Plus 4 / NG Plus ME,72.00
+20140A,Depth Adjustment,Row Unit,Depth control crank assembly,NG Plus 4 / NG Plus ME,125.00
+20150A,Parallel Arm,Row Unit,Parallel linkage arm set,NG Plus 4 / NG Plus ME,195.00
+20160A,Downforce Spring,Row Unit,Mechanical downforce spring,NG Plus 4 / NG Plus ME,45.00
+30101A,Fertilizer Opener,Fertilizer System,Fertilizer coulter opener,NG Plus 4 / NG Plus ME,170.00
+30110A,Fertilizer Meter,Fertilizer System,Fertilizer metering unit,NG Plus 4 / NG Plus ME,290.00
+40101A,Row Cleaner,Row Cleaning,Trash wheel / residue manager,NG Plus 4 / NG Plus ME,330.00
+50101A,Toolbar Section,Frame / Toolbar,Center toolbar frame,NG Plus 4 (12-24 row),1850.00
+50110A,Wing Hinge,Frame / Toolbar,Wing fold hinge mechanism,NG Plus 4,380.00
+60101A,Drive Motor,Drive System,Electric meter drive motor,NG Plus ME (electric),920.00
+60102A,Drive Gearbox,Drive System,Mechanical ground drive gearbox,NG Plus 4 (ground drive),650.00
+60110A,Drive Chain,Drive System,Meter drive chain assembly,NG Plus 4,82.00
+70101A,Geocontrol Display,Monitoring,Monosem Geocontrol planter monitor,NG Plus 4 / NG Plus ME,2800.00
+70110A,Harness Main,Electrical,Main planter wiring harness,NG Plus 4 / NG Plus ME,640.00
+70120A,Row Harness,Electrical,Individual row wiring harness,NG Plus 4 / NG Plus ME,90.00

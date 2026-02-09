@@ -1,0 +1,13 @@
+rank,perf_tier,product_name,manufacturer,category,description,approx_price_usd,price_basis,estimated_yield_gain_bu_ac,estimated_roi_percent,payback_acres,fits_production,compatibility_notes
+1,Top Tier,Keeton Seed Firmer,Precision Planting,Seed Firming,In-furrow blade pressing seeds into moisture,30.00,per row,1.5,200,20,Yes - drops into 2150 Early Riser furrow opener slot,Universal fit on Early Riser row units
+2,Top Tier,Martin Spading Closing Wheel,Martin Industries,Closing System,Spiked cast-iron closing wheel for 2150 bolt pattern,135.00,per row,1.5,120,90,Yes - same bolt pattern as 2150 production closing wheel,Direct replacement for 84593220
+3,Top Tier,vSet Meter,Precision Planting,Seed Metering,Electric vacuum meter replacing Early Riser meter,1200.00,per row,3.0,90,400,Yes - mounts on 2150 Early Riser meter housing,Replaces 84593100 meter assembly
+4,Top Tier,Copperhead Ag Furrow Cruiser,Copperhead Ag,Closing System,Notched rubber closing wheel for 2150 bolt pattern,95.00,per row,1.0,115,85,Yes - same bolt pattern as 2150 closing wheel,Good in lighter soils
+5,Top Tier,SpeedTube,Precision Planting,Seed Delivery,Electric seed tube for 2150 seed delivery,850.00,per row,2.5,85,320,Yes - replaces 2150 production seed tube,Maintains singulation above 8 mph
+6,Top Tier,SmartFirmer,Precision Planting,Seed Firming / Sensing,In-furrow firmer with soil sensors,350.00,per row,2.0,80,175,Yes - drops into 2150 furrow opener slot,Firms seed plus real-time OM and moisture data
+7,Top Tier,Yetter SharkTooth Closing Wheel,Yetter Manufacturing,Closing System,Aggressive tooth closing wheel for 2150,110.00,per row,1.0,100,110,Yes - same bolt pattern as 2150 closing wheel,Best in heavy clay
+8,Strong,FurrowForce,Precision Planting,Closing System,Dual-action closing system for 2150,750.00,per row,2.0,75,375,Yes - mounts on 2150 closing wheel position,Eliminates sidewall compaction
+9,Strong,DeltaForce,Precision Planting,Downforce,Hydraulic active downforce for 2150 row units,1500.00,per row,2.0,70,500,Yes - replaces 2150 production downforce springs,Replaces 84593260 springs on parallel arms
+10,Strong,CleanSweep,Precision Planting,Row Cleaning,Hydraulic row cleaner for 2150 toolbar,650.00,per row,1.5,65,430,Yes - mounts ahead of 2150 row unit on toolbar,Bolt-on to Early Riser toolbar
+11,Strong,20/20 SeedSense Gen3,Precision Planting,Monitoring / Display,Advanced monitor replacing AFS Pro 700,4200.00,per planter,2.0,45,1200,Yes - CAN harness for 2150 row units,Alternative to AFS Pro 700 monitor
+12,Moderate,WaveVision,Precision Planting,Monitoring / Sensing,High-frequency seed sensor for 2150 tubes,350.00,per row,1.0,50,350,Yes - installs in 2150 production seed tube,Replaces optical sensors

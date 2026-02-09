@@ -1,0 +1,26 @@
+brand,model_line,tractor_class,hp_range,engine,transmission_options,typical_use,products_folder
+John Deere,6R Series,Utility / Row Crop,110-250,PowerTech PVS 4.5L / 6.8L,AutoPowr CVT / CommandQuad,Mixed farming / livestock / row crop,N/A
+John Deere,8R Series,Row Crop,230-410,PowerTech PSS 9.0L,IVT / e23 PowerShift,Row crop / heavy tillage / planting,products/8r_tractors
+John Deere,9R / 9RT / 9RX Series,4WD / Articulated / Track,390-640,PowerTech PSS 13.5L,e18 / e23 PowerShift,Heavy tillage / large-scale row crop / land forming,products/9r_tractors
+Case IH,Farmall Series,Compact Utility,31-130,FPT F5 / S8000,8x8 / 12x12 Synchro / CVT,Small farm / livestock / hay / loader work,N/A
+Case IH,Magnum Series,Row Crop,250-380,FPT Cursor 9 8.7L,CVXDrive CVT / Full Powershift 18x4,Row crop / heavy tillage / planting,products/case_ih_magnum
+Case IH,Steiger / Quadtrac Series,4WD / Articulated / Track,420-620,FPT Cursor 13 12.9L,Full Powershift 16F/2R,Heavy tillage / large-scale row crop / land forming,products/case_ih_steiger
+New Holland,T6 Series,Utility / Row Crop,110-175,FPT NEF 4.5L / 6.7L,Auto Command CVT / Electro Command,Mixed farming / dairy / loader work,N/A
+New Holland,T8 Series,Row Crop,320-435,FPT Cursor 9 8.7L,Auto Command CVT / Ultra Command PS,Row crop / heavy tillage / planting,products/new_holland_t8
+New Holland,T9 / T9 SmartTrax Series,4WD / Articulated / Track,435-645,FPT Cursor 13 12.9L,Full Powershift 16F/2R,Heavy tillage / large-scale row crop / land forming,products/new_holland_t9
+Fendt,700 Vario Series,Utility / Row Crop,145-240,AGCO Power 6.6L / Deutz 6.1L,Vario ML180 CVT,Mixed farming / livestock / row crop,N/A
+Fendt,900 Vario Series,Row Crop,270-396,MAN D1556 6.9L,Vario ML260 CVT,Row crop / heavy tillage / planting,products/fendt_900_vario
+Fendt,1000 Vario / Vario MT Series,4WD / Track,396-517,MAN D2676 12.4L,Vario ML380 CVT,Heavy tillage / large-scale row crop,products/fendt_1000_vario
+Massey Ferguson,6700S Series,Utility / Row Crop,120-200,AGCO Power 4.9L / 6.6L,Dyna-VT CVT / Dyna-6,Mixed farming / dairy / row crop,N/A
+Massey Ferguson,8700S Series,Row Crop,270-370,AGCO Power 7.4L,Dyna-VT CVT,Row crop / heavy tillage / planting,products/massey_ferguson_8700s
+Massey Ferguson,9500 Series,4WD / Articulated,370-425,AGCO Power 9.8L,Dyna Powershift,Heavy tillage / large-scale farming,N/A
+Kubota,L Series,Compact Utility,24-62,Kubota D1803 / V2403 / V3307,Gear / HST,Hobby farm / landscaping / loader work,N/A
+Kubota,M7 Series,Utility,128-170,Kubota V3800 3.8L,K-VT CVT / 24F/24R Powershift,Mixed farming / hay / row crop,products/kubota_m7
+Kubota,M8 Series,Row Crop,190-225,Kubota V5009 5.0L,K-VT CVT,Row crop / tillage / planting,products/kubota_m8
+Claas,Arion 600 Series,Utility / Row Crop,145-205,FPT NEF 6.7L,CMATIC CVT / Hexashift 24x24,Mixed farming / row crop,N/A
+Claas,Axion 900 Series,Row Crop,270-410,FPT Cursor 9 8.7L,CMATIC CVT,Row crop / heavy tillage / planting,products/claas_axion_900
+Claas,Xerion 5000 Series,4WD / Articulated,462-530,MAN D2676 12.4L,CMATIC CVT,Heavy tillage / transport / slurry,N/A
+Challenger,MT700 Series,Track,262-370,AGCO Power 8.4L,Cat Powershift 16F/4R,Row crop / tillage (tracked),N/A
+Challenger,MT800 Series,4WD / Track,430-590,AGCO Power 9.8L / Cat C18,Cat Powershift 16F/4R,Heavy tillage / large-scale farming,products/challenger_mt800
+Versatile,DeltaTrack / 4WD Series,4WD / Articulated / Track,310-610,Cummins QSX 15L,12F/4R Powershift,Heavy tillage / large-scale row crop,N/A
+AGCO,DT Series,Row Crop,170-225,AGCO Power 7.4L,Powershift,Row crop / tillage,N/A

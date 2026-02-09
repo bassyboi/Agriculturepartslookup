@@ -1,0 +1,10 @@
+rank,perf_tier,product_name,manufacturer,category,description,approx_price_usd,price_basis,estimated_yield_gain_bu_ac,estimated_roi_percent,payback_acres,fits_production,compatibility_notes
+1,Top Tier,Keeton Seed Firmer,Precision Planting,Seed Firming,In-furrow firmer for YP-2425A furrow slot,30.00,per row,1.5,200,20,Yes - drops into YP-2425A furrow opener slot,Universal fit on GP row units
+2,Top Tier,Martin Spading Closing Wheel,Martin Industries,Closing System,Spiked closing wheel for YP-2425A bolt pattern,135.00,per row,1.5,120,90,Yes - same bolt pattern as YP-2425A closing wheel,Direct replacement for 822-120C
+3,Top Tier,Copperhead Ag Furrow Cruiser,Copperhead Ag,Closing System,Notched rubber closing wheel for GP bolt pattern,95.00,per row,1.0,115,85,Yes - same bolt pattern as YP-2425A closing wheel,Cost-effective in lighter soils
+4,Top Tier,SmartFirmer,Precision Planting,Seed Firming / Sensing,In-furrow firmer with soil sensors for YP-2425A,350.00,per row,2.0,80,175,Yes - drops into YP-2425A furrow slot,Firms seed plus OM and moisture mapping
+5,Top Tier,Yetter SharkTooth Closing Wheel,Yetter Manufacturing,Closing System,Aggressive tooth closing wheel for GP bolt pattern,110.00,per row,1.0,100,110,Yes - same bolt pattern as YP-2425A closing wheel,Best in heavy clay
+6,Strong,FurrowForce,Precision Planting,Closing System,Dual-action closing system for YP-2425A,750.00,per row,2.0,75,375,Yes - mounts on YP-2425A closing wheel position,Eliminates sidewall compaction
+7,Strong,DeltaForce,Precision Planting,Downforce,Hydraulic active downforce for GP row units,1500.00,per row,2.0,70,500,Yes - replaces YP-2425A production downforce springs,Replaces 822-160C springs
+8,Strong,CleanSweep,Precision Planting,Row Cleaning,Hydraulic row cleaner for GP toolbar,650.00,per row,1.5,65,430,Yes - mounts ahead of YP-2425A row unit,Bolt-on to GP toolbar
+9,Strong,20/20 SeedSense Gen3,Precision Planting,Monitoring / Display,Advanced monitor for YP-2425A,4200.00,per planter,2.0,45,1200,Yes - CAN harness for GP row units,Upgrade from GP standard monitor

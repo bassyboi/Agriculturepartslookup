@@ -1,0 +1,17 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+WH9800-001,Seed Metering,Seed disc wear causing singulation loss,Seed Disc / Vacuum Seal / Seed Sensor,700740100;700740110;700740130,High
+WH9800-002,Seed Metering,Vacuum pressure variation across rows,Seed Meter Assembly / Vacuum Seal,700740094;700740110,High
+WH9800-003,Seed Delivery,Seed bounce in delivery tube,Seed Tube / Seed Sensor,700740120;700740130,Medium
+WH9800-004,Row Unit,Gauge wheel arm bearing failure,Gauge Wheel Arm / Tire,700742010;700742020,Medium
+WH9800-005,Row Unit,Depth variation in variable soil types,Depth Adjustment / Opener Disc,700742050;700742040,Medium
+WH9800-006,Row Unit,Closing wheels not sealing in wet conditions,Closing Wheel / Closing Wheel Spike,700742030;700742031,High
+WH9800-007,Row Unit,Parallel arm bushing wear,Parallel Arm Upper / Lower,700742060;700742061,Medium
+WH9800-008,Row Unit,Downforce spring fatigue on older units,Downforce Spring,700742070,Medium
+WH9800-009,Fertilizer System,Fertilizer opener plugging in heavy residue,Fertilizer Opener,700744010,Medium
+WH9800-010,Fertilizer System,Liquid fertilizer rate inconsistency,Fertilizer Meter,700744020,High
+WH9800-011,Drive System,Electric drive motor overheating at high RPM,Electric Drive Motor / Drive Controller,700750010;700750020,High
+WH9800-012,Drive System,Electric drive losing communication with controller,Drive Controller / CAN Module,700750020;700752040,High
+WH9800-013,Monitoring,AGCO Fuse display row data dropout,Planter Monitor / Row Harness / CAN Module,700752010;700752030;700752040,High
+WH9800-014,Electrical,CAN bus communication errors between rows,CAN Module / Row Harness,700752040;700752030,High
+WH9800-015,Electrical,Main harness chafing at toolbar pivot,Harness Main,700752020,Medium
+WH9800-016,Row Cleaning,Row cleaner setting too aggressive,Row Cleaner,700746010,Medium

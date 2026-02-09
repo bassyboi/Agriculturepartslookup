@@ -1,0 +1,17 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+MONO-001,Seed Metering,Singulator finger wear causing doubles,Singulator / Seed Disc / Vacuum Seal,10215A;10205A;10210A,High
+MONO-002,Seed Metering,Vacuum inconsistency across rows,Seed Meter Assembly / Vacuum Seal,10201A;10210A,High
+MONO-003,Seed Metering,Seed disc wear - singulation dropping,Seed Disc / Seed Disc Soybean,10205A;10206A,High
+MONO-004,Seed Delivery,Seed bounce in delivery tube at speed,Seed Tube / Seed Sensor,10220A;10225A,Medium
+MONO-005,Row Unit,Gauge wheel arm bearing wear,Gauge Wheel Arm / Tire,20101A;20110A,Medium
+MONO-006,Row Unit,Opener disc wear causing poor trench,Opener Disc,20130A,Medium
+MONO-007,Row Unit,Closing wheel not sealing in clay,Closing Wheel / Closing Wheel Spiked,20120A;20121A,High
+MONO-008,Row Unit,Depth variation in uneven fields,Depth Adjustment / Parallel Arm,20140A;20150A,Medium
+MONO-009,Row Unit,Downforce spring fatigue,Downforce Spring,20160A,Medium
+MONO-010,Fertilizer System,Fertilizer coulter plugging in residue,Fertilizer Opener,30101A,Medium
+MONO-011,Fertilizer System,Fertilizer meter calibration drift,Fertilizer Meter,30110A,Medium
+MONO-012,Drive System,Electric drive motor overheating (ME model),Drive Motor,60101A,High
+MONO-013,Drive System,Ground drive gearbox oil leak,Drive Gearbox,60102A,Medium
+MONO-014,Drive System,Drive chain stretch - population error,Drive Chain,60110A,Medium
+MONO-015,Monitoring,Geocontrol display intermittent freezing,Geocontrol Display / Row Harness,70101A;70120A,Medium
+MONO-016,Electrical,Row harness connector corrosion,Row Harness / Harness Main,70120A;70110A,Medium

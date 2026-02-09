@@ -1,0 +1,18 @@
+issue_id,issue_category,description,affected_products,recommended_action,severity
+PP-ISS-001,Display,20/20 SeedSense boot failure or stuck on logo screen,20/20 SeedSense Gen3,Check power connections - verify 12V supply clean - try firmware recovery via USB,High
+PP-ISS-002,Display,20/20 SeedSense showing row communication errors,20/20 SeedSense Gen3,Inspect row harness connectors for corrosion - check CAN bus wiring - verify row module power,High
+PP-ISS-003,Seed Delivery,SpeedTube belt slipping or stalling at high speed,SpeedTube,Check belt tension - inspect for seed debris in tube - verify motor current draw - replace belt,High
+PP-ISS-004,Seed Delivery,SpeedTube not calibrated - seeds bunching at furrow,SpeedTube,Run SpeedTube calibration from 20/20 - match belt speed to ground speed - check motor encoder,Medium
+PP-ISS-005,Seed Metering,vSet meter singulation below 98% with treated seed,vSet Meter,Verify disc selection for seed size - check vacuum pressure - inspect disc for wear or buildup,High
+PP-ISS-006,Seed Metering,vDrive electric motor overheating at high population rates,vDrive Electric Drive,Check motor ventilation - verify population within motor RPM limits - inspect wiring for chafe,High
+PP-ISS-007,Downforce,DeltaForce hydraulic cylinder leaking,DeltaForce,Inspect cylinder seals - check hydraulic connections - verify system pressure at manifold,High
+PP-ISS-008,Downforce,DeltaForce not maintaining target force on rough ground,DeltaForce,Recalibrate load cells - check accumulator charge - verify hydraulic flow rate adequate,Medium
+PP-ISS-009,Depth Control,SmartDepth actuator not responding to depth changes,SmartDepth,Check actuator wiring - verify CAN communication with 20/20 - inspect mechanical linkage,Medium
+PP-ISS-010,Row Cleaning,CleanSweep hydraulic hose leaking at row unit,CleanSweep,Replace hose fitting - check for rubbing against row unit frame - verify routing,Medium
+PP-ISS-011,Closing System,FurrowForce closing wheels not following ground contour,FurrowForce,Check pivot bushings for wear - verify hydraulic pressure - inspect closing wheel condition,Medium
+PP-ISS-012,Fertilizer,FurrowJet nozzles clogging with fertilizer crystals,FurrowJet,Flush system with clean water - check in-line strainers - use recommended fertilizer grades,Medium
+PP-ISS-013,Sensing,SmartFirmer OM readings inconsistent field to field,SmartFirmer,Clean sensor surfaces - recalibrate to local soil - check for moisture on sensor face,Low
+PP-ISS-014,Sensing,WaveVision showing seed spacing wider than actual,WaveVision,Recalibrate sensor alignment in seed tube - check for seed tube damage - update firmware,Medium
+PP-ISS-015,Data,20/20 Connect sync failing with cloud platform,20/20 Connect,Check cellular modem signal - verify account subscription - power cycle modem and display,Medium
+PP-ISS-016,Fertilizer,vApply HD servo valve stuck or slow response,vApply HD,Flush valve with clean water - check wiring connections - replace valve if crystallization damage,High
+PP-ISS-017,Multi-Hybrid,mSet hybrid switching delayed at zone boundaries,mSet Multi-Hybrid,Verify GPS accuracy for zone detection - check meter response time - adjust lookahead distance,Medium

@@ -1,0 +1,17 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+TEMP-001,Seed Metering,Seed disc wear reducing singulation at high speed,Seed Disc / Vacuum Seal,483570;483580,High
+TEMP-002,Seed Metering,Meter vacuum pressure fluctuation at 10+ mph,Seed Meter Assembly / Vacuum Seal,483560;483580,High
+TEMP-003,Seed Delivery,PowerShoot cartridge wear causing spacing errors,PowerShoot Cartridge / Seed Sensor,483590;483600,High
+TEMP-004,Row Unit,Gauge wheel bearing failure at high speed,Gauge Wheel Arm / Tire,484100;484110,Medium
+TEMP-005,Row Unit,Hydraulic depth control slow response in variable soil,Depth Adjustment,484140,Medium
+TEMP-006,Row Unit,Closing wheels leaving open furrow in sandy soil,Closing Wheel / Closing Wheel V-Press,484120;484121,Medium
+TEMP-007,Row Unit,Parallel arm bushing wear at high planting speeds,Parallel Arm,484150,Medium
+TEMP-008,Row Unit,Hydraulic downforce oscillating on rough ground,Downforce Actuator,484160,Medium
+TEMP-009,Fertilizer System,Fertilizer coulter plugging in corn stalks,Fertilizer Coulter,485100,Medium
+TEMP-010,Fertilizer System,Fertilizer metering inconsistency with granular,Fertilizer Meter,485110,High
+TEMP-011,Drive System,Electric drive motor fault code at max speed,Electric Drive Motor / Drive Controller,488100;488110,High
+TEMP-012,Drive System,Drive controller CAN communication dropout,Drive Controller / Row Harness,488110;489120,High
+TEMP-013,Monitoring,E-Control display freezing during operation,E-Control Display,489100,Medium
+TEMP-014,Monitoring,E-Control seed map showing gaps in data,E-Control Display / Seed Sensor / GPS Module,489100;483600;489130,Medium
+TEMP-015,Electrical,Row harness connector corrosion from chemical exposure,Row Harness / Harness Main,489120;489110,Medium
+TEMP-016,Row Cleaning,Row cleaner hydraulic hose leak,Row Cleaner,486100,Medium

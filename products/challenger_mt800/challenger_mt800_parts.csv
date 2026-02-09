@@ -1,0 +1,37 @@
+part_number,part_name,category,description,compatibility,price_usd
+CH11502010,Engine Oil Filter,Engine,Engine oil filter element,MT835 / MT845 / MT855 / MT865 / MT875,28.00
+CH11502020,Fuel Filter Primary,Engine,Primary fuel filter / water separator,MT800 Series (AGCO Power 9.8L / Cat C18),38.00
+CH11502021,Fuel Filter Secondary,Engine,Secondary fuel filter element,MT800 Series (AGCO Power 9.8L / Cat C18),42.00
+CH11502040,Air Filter Outer,Engine,Engine air filter - outer element,MT800 Series,112.00
+CH11502041,Air Filter Inner,Engine,Engine air filter - inner safety element,MT800 Series,75.00
+CH11502060,DEF Filter,Engine,Diesel exhaust fluid filter,MT800 Series (Tier 4 Final),46.00
+CH11502070,Turbocharger,Engine,Compound turbocharger assembly,MT865 / MT875,5100.00
+CH11502080,Water Pump,Engine,Engine coolant water pump,MT800 Series,610.00
+CH11502090,Injector Assembly,Engine,Fuel injector - single cylinder,MT800 Series,490.00
+CH11502100,Head Gasket Set,Engine,Cylinder head gasket set - complete,MT800 Series,760.00
+CH11504010,Powershift Transmission,Transmission,16F/4R Cat full powershift transmission - reman,MT800 Series,13200.00
+CH11504020,Transmission Filter,Transmission,Transmission oil filter element,MT800 Series,56.00
+CH11504030,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,MT800 Series,1320.00
+CH11504040,PTO Clutch Pack,Transmission,1000 RPM PTO clutch pack assembly,MT800 Series,1800.00
+CH11506010,Final Drive LH,Drivetrain,Left-hand planetary final drive assembly,MT800 Series,6000.00
+CH11506011,Final Drive RH,Drivetrain,Right-hand planetary final drive assembly,MT800 Series,6000.00
+CH11506020,Differential Lock,Drivetrain,Differential lock actuator assembly,MT800 Series,1000.00
+CH11506030,Track Roller,Drivetrain,Track frame roller - single,MT800 Series,430.00
+CH11506040,Track Belt,Drivetrain,Rubber track belt - 30 inch,MT800 Series,7300.00
+CH11506050,Track Idler,Drivetrain,Front track idler wheel,MT800 Series,1380.00
+CH11506060,Track Tension Cylinder,Drivetrain,Track tension / recoil cylinder,MT800 Series,1650.00
+CH11508010,Hydraulic Pump,Hydraulics,Main hydraulic pump - triple section,MT800 Series,3700.00
+CH11508020,Hydraulic Filter,Hydraulics,Hydraulic system return filter,MT800 Series,48.00
+CH11508030,SCV Coupler,Hydraulics,Selective control valve quick coupler,MT800 Series,98.00
+CH11508040,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder - Cat 4N,MT800 Series,1080.00
+CH11508050,Drawbar Assembly,Hydraulics,Heavy-duty swinging drawbar,MT800 Series,1300.00
+CH11510010,Tractor Management Display,Electrical,TMC display terminal,MT800 Series,2800.00
+CH11510020,AccuGuide Receiver,Electrical,AccuGuide GNSS receiver,MT800 Series,4200.00
+CH11510030,Alternator,Electrical,240 amp alternator assembly,MT800 Series,810.00
+CH11510040,Wiring Harness Main,Electrical,Main chassis wiring harness,MT800 Series,1620.00
+CH11510050,Cab Air Filter,Cab,Cab recirculation air filter,MT800 Series,40.00
+CH11510051,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,MT800 Series,48.00
+CH11510060,Seat Assembly,Cab,Premium cab seat - leather,MT800 Series,2200.00
+CH11510070,LED Light Package,Electrical,Premium LED work light package,MT800 Series,700.00
+CH11510080,AccuGuide Steering Kit,Guidance,AccuGuide automated steering system,MT800 Series,3400.00
+CH11512010,Front Ballast Group,Ballast,Front weight mounting frame,MT800 Series,680.00

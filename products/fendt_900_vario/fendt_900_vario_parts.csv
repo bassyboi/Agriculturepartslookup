@@ -1,0 +1,32 @@
+part_number,part_name,category,description,compatibility,price_usd
+F931502016,Engine Oil Filter,Engine,Engine oil filter element,Fendt 927 / 930 / 933 / 936 / 939 / 942,26.00
+F931502030,Fuel Filter Primary,Engine,Primary fuel filter / water separator,900 Vario Series (MAN D1556),32.00
+F931502031,Fuel Filter Secondary,Engine,Secondary fuel filter element,900 Vario Series (MAN D1556),36.00
+F931502050,Air Filter Outer,Engine,Engine air filter - outer element,900 Vario Series,90.00
+F931502051,Air Filter Inner,Engine,Engine air filter - inner safety element,900 Vario Series,60.00
+F931502070,DEF Filter,Engine,Diesel exhaust fluid (AdBlue) filter,900 Vario Series (Tier 4 Final),42.00
+F931502080,Turbocharger,Engine,Variable geometry turbocharger assembly,Fendt 936 / 939 / 942,4100.00
+F931502090,Water Pump,Engine,Engine coolant water pump,900 Vario Series,540.00
+F931502095,Thermostat,Engine,Engine thermostat assembly,900 Vario Series,70.00
+F931502100,Serpentine Belt,Engine,Engine accessory drive belt,900 Vario Series,102.00
+F931504010,VarioDrive CVT,Transmission,Vario ML260 CVT transmission - reman,900 Vario Series,10800.00
+F931504020,Transmission Filter,Transmission,Transmission oil filter element,900 Vario Series,50.00
+F931504030,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,900 Vario Series,1050.00
+F931504040,PTO Clutch Pack,Transmission,PTO clutch pack assembly - 1000 RPM,900 Vario Series,1500.00
+F931506010,Front Axle Assembly,Axles/Steering,MFWD front axle - suspended,900 Vario Series,5800.00
+F931506020,Steering Valve,Axles/Steering,Steering control valve - load sensing,900 Vario Series,850.00
+F931506030,Tie Rod Assembly,Axles/Steering,Outer tie rod end - MFWD,900 Vario Series,165.00
+F931508010,Hydraulic Pump,Hydraulics,Main hydraulic pump - load sensing piston,900 Vario Series,2800.00
+F931508020,Hydraulic Filter,Hydraulics,Hydraulic system return filter,900 Vario Series,44.00
+F931508030,SCV Coupler,Hydraulics,Electronic SCV quick coupler,900 Vario Series,95.00
+F931508040,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder,900 Vario Series,750.00
+F931510010,Varioterminal,Electrical,Varioterminal 10.4 inch display,900 Vario Series,3400.00
+F931510020,VarioGuide Receiver,Electrical,VarioGuide GNSS receiver,900 Vario Series,4500.00
+F931510030,Cab Air Filter,Cab,Cab recirculation air filter,900 Vario Series,38.00
+F931510031,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,900 Vario Series,46.00
+F931510040,Seat Assembly,Cab,VarioCab seat - premium leather,900 Vario Series,2100.00
+F931510050,LED Work Light Kit,Electrical,Premium LED light package,900 Vario Series,520.00
+F931510060,Alternator,Electrical,200 amp alternator assembly,900 Vario Series,710.00
+F931512010,Front Weight Bracket,Ballast,Front weight mounting bracket,900 Vario Series,420.00
+F931512020,Rear Wheel Weight,Ballast,Rear wheel weight - 1000 lb,900 Vario Series,475.00
+F931510070,VarioGuide Steering Kit,Guidance,VarioGuide automated steering system,900 Vario Series,3600.00

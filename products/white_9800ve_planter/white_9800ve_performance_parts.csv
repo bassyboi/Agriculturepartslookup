@@ -1,0 +1,10 @@
+rank,perf_tier,product_name,manufacturer,category,description,approx_price_usd,price_basis,estimated_yield_gain_bu_ac,estimated_roi_percent,payback_acres,fits_production,compatibility_notes
+1,Top Tier,Keeton Seed Firmer,Precision Planting,Seed Firming,In-furrow firmer for White 9800VE furrow slot,30.00,per row,1.5,200,20,Yes - drops into 9800VE furrow opener slot,Universal fit on White row units
+2,Top Tier,Martin Spading Closing Wheel,Martin Industries,Closing System,Spiked closing wheel for White 9800VE bolt pattern,135.00,per row,1.5,120,90,Yes - same bolt pattern as 9800VE closing wheel,Direct replacement for 700742030
+3,Top Tier,Copperhead Ag Furrow Cruiser,Copperhead Ag,Closing System,Notched rubber closing wheel for White bolt pattern,95.00,per row,1.0,115,85,Yes - same bolt pattern as 9800VE closing wheel,Cost-effective in lighter soils
+4,Top Tier,SmartFirmer,Precision Planting,Seed Firming / Sensing,In-furrow firmer with soil sensors for 9800VE,350.00,per row,2.0,80,175,Yes - drops into 9800VE furrow slot,Firms seed plus OM and moisture mapping
+5,Top Tier,Yetter SharkTooth Closing Wheel,Yetter Manufacturing,Closing System,Aggressive tooth closing wheel for White 9800VE,110.00,per row,1.0,100,110,Yes - same bolt pattern as 9800VE closing wheel,Best in heavy wet clay
+6,Strong,FurrowForce,Precision Planting,Closing System,Dual-action closing for 9800VE closing position,750.00,per row,2.0,75,375,Yes - mounts on 9800VE closing wheel position,Eliminates sidewall compaction
+7,Strong,DeltaForce,Precision Planting,Downforce,Hydraulic active downforce for White row units,1500.00,per row,2.0,70,500,Yes - replaces 9800VE production downforce springs,Replaces 700742070 springs
+8,Strong,CleanSweep,Precision Planting,Row Cleaning,Hydraulic row cleaner for White 9800VE toolbar,650.00,per row,1.5,65,430,Yes - mounts ahead of 9800VE row unit,Bolt-on to White toolbar
+9,Strong,20/20 SeedSense Gen3,Precision Planting,Monitoring / Display,Advanced monitor for White 9800VE,4200.00,per planter,2.0,45,1200,Yes - CAN harness for White 9800VE rows,Alternative to AGCO Fuse planter display

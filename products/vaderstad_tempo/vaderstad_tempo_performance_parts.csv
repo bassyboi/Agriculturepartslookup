@@ -1,0 +1,7 @@
+rank,perf_tier,product_name,manufacturer,category,description,approx_price_usd,price_basis,estimated_yield_gain_bu_ac,estimated_roi_percent,payback_acres,fits_production,compatibility_notes
+1,Top Tier,Martin Spading Closing Wheel,Martin Industries,Closing System,Spiked closing wheel for Tempo press wheel mount,135.00,per row,1.5,120,90,Yes - adapter for Vaderstad Tempo closing wheel mount,Adapter bracket for Tempo row unit
+2,Top Tier,Copperhead Ag Furrow Cruiser,Copperhead Ag,Closing System,Notched rubber closing wheel for Tempo mount,95.00,per row,1.0,115,85,Yes - adapter for Tempo closing wheel position,Good in lighter soil types
+3,Top Tier,Yetter SharkTooth Closing Wheel,Yetter Manufacturing,Closing System,Aggressive tooth closing wheel for Tempo,110.00,per row,1.0,100,110,Yes - adapter for Tempo closing wheel mount,Best in heavy clay and high-residue
+4,Strong,Schaffert V-Blade Fertilizer Opener,Schaffert Manufacturing,Fertilizer Placement,V-shaped fertilizer knife for Tempo F models,85.00,per row,1.0,80,85,Yes - fits Tempo F fertilizer opener mount,Less draft than standard coulter
+5,Strong,20/20 SeedSense Gen3,Precision Planting,Monitoring / Display,Advanced planter monitor for Tempo,4200.00,per planter,2.0,45,1200,Yes - CAN harness adapter for Tempo row units,Supplements E-Control with deeper diagnostics
+6,Moderate,WaveVision,Precision Planting,Monitoring / Sensing,High-frequency seed sensor for Tempo seed tubes,350.00,per row,1.0,50,350,Yes - adapter for Tempo PowerShoot delivery tube,Upgrade from standard Tempo optical sensors
