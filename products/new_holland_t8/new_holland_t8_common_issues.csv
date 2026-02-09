@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+T8-001,Engine,SCR aftertreatment system fault codes,DEF Filter / Turbocharger,84390500;87801800,High
+T8-002,Engine,Coolant leak at water pump gasket,Water Pump / Thermostat,87801200;87801300,High
+T8-003,Engine,Belt squealing at cold start,Serpentine Belt / Alternator,87801900;84467450,Medium
+T8-004,Transmission,Auto Command CVT shudder at headlands,CVT Transmission / Trans Filter,84467200;84467210,High
+T8-005,Transmission,Ultra Command shift quality degradation,Ultra Command Transmission / Cooler,84467100;84467220,High
+T8-006,Transmission,PTO clutch judder on engagement,PTO Clutch Pack,84196200,Medium
+T8-007,Axles/Steering,SuperSteer axle seal leak,Front Axle Assembly / Tie Rod,84347100;84195500,Medium
+T8-008,Axles/Steering,Steering wander at transport speed,Steering Valve,84239100,Medium
+T8-009,Hydraulics,Hydraulic pump whine under load,Hydraulic Pump / Filter,84467300;84467310,High
+T8-010,Hydraulics,SCV response lag on electronic valves,SCV Coupler,84239200,Low
+T8-011,Hydraulics,3-point hitch creep under load,Hitch Cylinder,84347200,Medium
+T8-012,Electrical,IntelliView display freezing,IntelliView IV,84565800,Medium
+T8-013,Electrical,PLM GPS signal loss near tree lines,PLM Receiver / Steering Kit,84593200;84593290,High
+T8-014,Cab,Cab air quality poor - filter restriction,Cab Air Filter / Fresh Air Filter,87721100;87721101,Low
+T8-015,Engine,Air filter element collapsing in dusty fields,Air Filter Outer / Inner,87720925;87720926,Low

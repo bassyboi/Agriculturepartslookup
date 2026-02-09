@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+M7-001,Engine,DPF regeneration too frequent,DEF Filter / Turbocharger,1J500-78090;1J770-17010,High
+M7-002,Engine,Coolant leak at water pump gasket,Water Pump / Thermostat,1C010-73030;19434-73014,Medium
+M7-003,Engine,Belt squeal at startup,Serpentine Belt / Alternator,K7711-97010;1C010-64012,Low
+M7-004,Transmission,KVT CVT hesitation on hill starts,KVT Transmission / Trans Filter,3C091-82200;HHK20-37150,High
+M7-005,Transmission,Powershift shift quality decline,Powershift Transmission / Trans Cooler,3C081-37710;3C091-82400,Medium
+M7-006,Transmission,PTO engagement shudder,PTO Clutch Pack,3C081-25110,Medium
+M7-007,Axles/Steering,MFWD axle oil leak at hub seal,Front Axle Assembly / Tie Rod,3C091-93100;3C051-62230,Medium
+M7-008,Axles/Steering,Steering feels heavy at low RPM,Steering Valve,3C081-63530,Low
+M7-009,Hydraulics,Hydraulic pump gear noise,Hydraulic Pump / Filter,TC050-36440;HHK20-37950,Medium
+M7-010,Hydraulics,SCV coupler dripping,SCV Coupler,3C081-82130,Low
+M7-011,Hydraulics,3-point hitch slow response,Hitch Cylinder,3C091-84100,Low
+M7-012,Electrical,K-Monitor display freezing,K-Monitor Display,3C091-75100,Medium
+M7-013,Electrical,GPS signal loss in rolling terrain,GPS Receiver / Auto Steer Kit,3C091-75200;3C091-75300,Medium
+M7-014,Cab,Cab air conditioning weak,Cab Air Filter / Fresh Air Filter,6A100-83190;6A100-83191,Low
+M7-015,Engine,Air filter plugging in light soil,Air Filter Outer / Inner,TC422-93230;TC422-93231,Low

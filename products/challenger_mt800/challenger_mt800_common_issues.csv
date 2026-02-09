@@ -1,0 +1,18 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+MT800-001,Engine,SCR aftertreatment derate and regen,DEF Filter / Turbocharger,CH11502060;CH11502070,High
+MT800-002,Engine,Coolant leak at water pump housing,Water Pump,CH11502080,High
+MT800-003,Engine,Injector sticking causing rough running,Injector Assembly / Head Gasket,CH11502090;CH11502100,Critical
+MT800-004,Transmission,Powershift clutch wear - delayed shifts,Powershift Transmission / Filter,CH11504010;CH11504020,High
+MT800-005,Transmission,Transmission overheating in deep tillage,Trans Oil Cooler,CH11504030,High
+MT800-006,Transmission,PTO clutch slipping at rated load,PTO Clutch Pack,CH11504040,Medium
+MT800-007,Drivetrain,Final drive planetary whine,Final Drive LH / RH,CH11506010;CH11506011,High
+MT800-008,Drivetrain,Differential lock slow engagement,Differential Lock,CH11506020,Medium
+MT800-009,Drivetrain,Track roller seal failure,Track Roller / Idler,CH11506030;CH11506050,High
+MT800-010,Drivetrain,Track belt edge delamination,Track Belt,CH11506040,Critical
+MT800-011,Drivetrain,Track tension cylinder leak,Track Tension Cylinder,CH11506060,Medium
+MT800-012,Hydraulics,Hydraulic pump seal failure,Hydraulic Pump / Filter,CH11508010;CH11508020,High
+MT800-013,Hydraulics,3-point hitch drift with heavy ripper,Hitch Cylinder,CH11508040,Medium
+MT800-014,Electrical,TMC display communication errors,Tractor Management Display,CH11510010,Medium
+MT800-015,Electrical,AccuGuide GPS intermittent signal,AccuGuide Receiver / Steering Kit,CH11510020;CH11510080,High
+MT800-016,Electrical,Wiring harness chafe at engine bay,Wiring Harness Main,CH11510040,High
+MT800-017,Cab,Cab pressurization lost - dust entry,Cab Air Filter / Fresh Air Filter,CH11510050;CH11510051,Medium

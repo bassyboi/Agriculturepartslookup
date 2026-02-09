@@ -1,0 +1,32 @@
+part_number,part_name,category,description,compatibility,price_usd
+0011459150,Engine Oil Filter,Engine,Engine oil filter element,Axion 920 / 930 / 940 / 950 / 960,26.00
+0011459160,Fuel Filter Primary,Engine,Primary fuel filter / water separator,Axion 900 Series (FPT Cursor 9),32.00
+0011459161,Fuel Filter Secondary,Engine,Secondary fuel filter element,Axion 900 Series (FPT Cursor 9),36.00
+0011459180,Air Filter Outer,Engine,Engine air filter - outer element,Axion 900 Series,88.00
+0011459181,Air Filter Inner,Engine,Engine air filter - inner safety element,Axion 900 Series,58.00
+0011459200,DEF Filter,Engine,Diesel exhaust fluid filter,Axion 900 Series (Tier 4 Final),42.00
+0011459220,Turbocharger,Engine,Variable geometry turbocharger assembly,Axion 940 / 950 / 960,3850.00
+0011459230,Water Pump,Engine,Engine coolant water pump,Axion 900 Series,530.00
+0011459240,Thermostat,Engine,Engine thermostat assembly,Axion 900 Series,70.00
+0011459250,Serpentine Belt,Engine,Engine accessory drive belt,Axion 900 Series,100.00
+0011460010,CMATIC CVT,Transmission,CMATIC CVT transmission - reman,Axion 900 CMATIC Series,10500.00
+0011460020,Transmission Filter,Transmission,Transmission oil filter element,Axion 900 Series,50.00
+0011460030,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,Axion 900 Series,1000.00
+0011460040,PTO Clutch Pack,Transmission,PTO clutch pack assembly - 1000 RPM,Axion 900 Series,1480.00
+0011461010,Front Axle Assembly,Axles/Steering,MFWD front axle - suspended,Axion 900 Series,5600.00
+0011461020,Steering Valve,Axles/Steering,Steering control valve - load sensing,Axion 900 Series,840.00
+0011461030,Tie Rod Assembly,Axles/Steering,Outer tie rod end - MFWD,Axion 900 Series,160.00
+0011462010,Hydraulic Pump,Hydraulics,Main hydraulic pump - load sensing piston,Axion 900 Series,2750.00
+0011462020,Hydraulic Filter,Hydraulics,Hydraulic system return filter,Axion 900 Series,44.00
+0011462030,SCV Coupler,Hydraulics,Electronic SCV quick coupler,Axion 900 Series,94.00
+0011462040,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder,Axion 900 Series,740.00
+0011463010,CEBIS Terminal,Electrical,CEBIS 12 inch touch display,Axion 900 Series,3300.00
+0011463020,GPS Pilot Receiver,Electrical,GPS Pilot GNSS receiver,Axion 900 Series,4400.00
+0011463030,Cab Air Filter,Cab,Cab recirculation air filter,Axion 900 Series,38.00
+0011463031,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,Axion 900 Series,46.00
+0011463040,Seat Assembly,Cab,Premium air-ride seat - leather,Axion 900 Series,2050.00
+0011463050,LED Work Light Kit,Electrical,Premium LED light package,Axion 900 Series,510.00
+0011463060,Alternator,Electrical,200 amp alternator assembly,Axion 900 Series,700.00
+0011464010,Front Weight Bracket,Ballast,Front weight mounting bracket,Axion 900 Series,425.00
+0011464020,Rear Wheel Weight,Ballast,Rear wheel weight - 1000 lb,Axion 900 Series,470.00
+0011463070,GPS Pilot Steering Kit,Guidance,GPS Pilot automated steering system,Axion 900 Series,3500.00

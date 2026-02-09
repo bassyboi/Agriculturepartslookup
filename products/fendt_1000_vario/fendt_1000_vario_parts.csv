@@ -1,0 +1,36 @@
+part_number,part_name,category,description,compatibility,price_usd
+F101502016,Engine Oil Filter,Engine,Engine oil filter element,Fendt 1038 / 1042 / 1046 / 1050,28.00
+F101502030,Fuel Filter Primary,Engine,Primary fuel filter / water separator,1000 Vario Series (MAN D2676),38.00
+F101502031,Fuel Filter Secondary,Engine,Secondary fuel filter element,1000 Vario Series (MAN D2676),42.00
+F101502050,Air Filter Outer,Engine,Engine air filter - outer element,1000 Vario Series,115.00
+F101502051,Air Filter Inner,Engine,Engine air filter - inner safety element,1000 Vario Series,78.00
+F101502070,DEF Filter,Engine,Diesel exhaust fluid (AdBlue) filter,1000 Vario Series (Tier 4 Final),46.00
+F101502080,Turbocharger,Engine,Compound turbocharger assembly,Fendt 1046 / 1050,5400.00
+F101502090,Water Pump,Engine,Engine coolant water pump,1000 Vario Series,650.00
+F101502100,Injector Assembly,Engine,Fuel injector - single cylinder,1000 Vario Series,500.00
+F101502110,Head Gasket Set,Engine,Cylinder head gasket set - complete,1000 Vario Series,780.00
+F101504010,VarioDrive CVT,Transmission,Vario ML380 CVT transmission - reman,1000 Vario Series,13500.00
+F101504020,Transmission Filter,Transmission,Transmission oil filter element,1000 Vario Series,58.00
+F101504030,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,1000 Vario Series,1250.00
+F101504040,PTO Clutch Pack,Transmission,1000 RPM PTO clutch pack assembly,1000 Vario Series,1750.00
+F101506010,Final Drive LH,Drivetrain,Left-hand final drive assembly,1000 Vario Series,6200.00
+F101506011,Final Drive RH,Drivetrain,Right-hand final drive assembly,1000 Vario Series,6200.00
+F101506020,Differential Lock,Drivetrain,Differential lock actuator assembly,1000 Vario Series,1020.00
+F101506030,Track Roller,Drivetrain,Track frame roller - single (Vario MT),1000 Vario MT Series,440.00
+F101506040,Track Belt,Drivetrain,Rubber track belt - 30 inch (Vario MT),1000 Vario MT Series,7400.00
+F101506050,Track Idler,Drivetrain,Front track idler wheel (Vario MT),1000 Vario MT Series,1400.00
+F101508010,Hydraulic Pump,Hydraulics,Main hydraulic pump - triple section,1000 Vario Series,3600.00
+F101508020,Hydraulic Filter,Hydraulics,Hydraulic system return filter,1000 Vario Series,48.00
+F101508030,SCV Coupler,Hydraulics,Electronic SCV quick coupler,1000 Vario Series,100.00
+F101508040,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder - Cat 4,1000 Vario Series,1020.00
+F101508050,Drawbar Assembly,Hydraulics,Heavy-duty swinging drawbar,1000 Vario Series,1300.00
+F101510010,Varioterminal,Electrical,Varioterminal 12 inch display,1000 Vario Series,3600.00
+F101510020,VarioGuide Receiver,Electrical,VarioGuide GNSS receiver,1000 Vario Series,4500.00
+F101510030,Alternator,Electrical,240 amp alternator assembly,1000 Vario Series,830.00
+F101510040,Wiring Harness Main,Electrical,Main chassis wiring harness,1000 Vario Series,1700.00
+F101510050,Cab Air Filter,Cab,Cab recirculation air filter,1000 Vario Series,42.00
+F101510051,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,1000 Vario Series,50.00
+F101510060,Seat Assembly,Cab,VarioCab seat - premium leather,1000 Vario Series,2400.00
+F101510070,LED Light Package,Electrical,Premium LED work light package,1000 Vario Series,750.00
+F101510080,VarioGuide Steering Kit,Guidance,VarioGuide automated steering system,1000 Vario Series,3600.00
+F101512010,Front Ballast Group,Ballast,Front weight mounting frame,1000 Vario Series,700.00

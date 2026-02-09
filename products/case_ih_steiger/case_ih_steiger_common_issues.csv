@@ -1,0 +1,17 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+STG-001,Engine,SCR aftertreatment system derates,DEF Filter / Turbocharger,84390400;87804200,High
+STG-002,Engine,Coolant leak at water pump flange,Water Pump,87803600,High
+STG-003,Engine,Injector failure causing white smoke,Injector Assembly / Head Gasket,87804300;87804400,Critical
+STG-004,Transmission,Powershift clutch pack wear - harsh shifts,Powershift Transmission / Filter,84469300;84469310,High
+STG-005,Transmission,Transmission overheating in heavy draft,Trans Oil Cooler,84469320,High
+STG-006,Transmission,PTO engagement shudder under load,PTO Clutch Pack,84196800,Medium
+STG-007,Drivetrain,Final drive planetary gear whine,Final Drive LH / RH,84469350;84469351,High
+STG-008,Drivetrain,Differential lock not engaging,Differential Lock,84469360,Medium
+STG-009,Drivetrain,Track roller bearing failure (Quadtrac),Track Roller / Idler,84500100;84500300,High
+STG-010,Drivetrain,Track belt delamination or cracking,Track Belt,84500200,Critical
+STG-011,Hydraulics,Hydraulic pump seal failure,Hydraulic Pump / Filter,84469400;84469410,High
+STG-012,Hydraulics,3-point hitch drift under heavy implements,Hitch Cylinder,84469430,Medium
+STG-013,Electrical,AFS Pro display communication errors,AFS Pro 1200,84412600,Medium
+STG-014,Electrical,AccuGuide GPS intermittent dropout,AccuGuide Receiver / Steering Kit,84593700;84593780,High
+STG-015,Electrical,Main harness chafing near engine bay,Wiring Harness Main,84469510,High
+STG-016,Cab,Cab pressurization loss - dust infiltration,Cab Air Filter / Fresh Air Filter,87684200;87684201,Medium

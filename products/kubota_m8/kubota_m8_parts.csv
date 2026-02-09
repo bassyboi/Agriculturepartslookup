@@ -1,0 +1,32 @@
+part_number,part_name,category,description,compatibility,price_usd
+HHK70-14080,Engine Oil Filter,Engine,Engine oil filter element,M8-211,22.00
+HHK32-16780,Fuel Filter Primary,Engine,Primary fuel filter / water separator,M8 Series (Kubota V5009),28.00
+HHK32-16781,Fuel Filter Secondary,Engine,Secondary fuel filter element,M8 Series (Kubota V5009),32.00
+TC422-93240,Air Filter Outer,Engine,Engine air filter - outer element,M8 Series,72.00
+TC422-93241,Air Filter Inner,Engine,Engine air filter - inner safety element,M8 Series,48.00
+1J500-78100,DEF Filter,Engine,Diesel exhaust fluid filter,M8 Series (Tier 4 Final),37.00
+1J800-17010,Turbocharger,Engine,Turbocharger assembly - variable geometry,M8-211,2800.00
+1C020-73030,Water Pump,Engine,Engine coolant water pump,M8 Series,420.00
+19434-73020,Thermostat,Engine,Engine thermostat assembly,M8 Series,58.00
+K7721-97010,Serpentine Belt,Engine,Engine accessory drive belt,M8 Series,82.00
+3C101-82200,KVT Transmission,Transmission,K-VT CVT transmission - reman,M8 Series,8200.00
+HHK20-37160,Transmission Filter,Transmission,Transmission oil filter element,M8 Series,42.00
+3C101-82400,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,M8 Series,820.00
+3C101-25110,PTO Clutch Pack,Transmission,PTO clutch pack assembly - 1000 RPM,M8 Series,1250.00
+3C101-93100,Front Axle Assembly,Axles/Steering,MFWD front axle assembly - heavy duty,M8 Series,4200.00
+3C101-63530,Steering Valve,Axles/Steering,Steering control valve - orbital,M8 Series,680.00
+3C101-62230,Tie Rod Assembly,Axles/Steering,Outer tie rod end - MFWD,M8 Series,135.00
+TC060-36440,Hydraulic Pump,Hydraulics,Main hydraulic pump - piston type,M8 Series,2200.00
+HHK20-37960,Hydraulic Filter,Hydraulics,Hydraulic system return filter,M8 Series,38.00
+3C101-82130,SCV Coupler,Hydraulics,Selective control valve quick coupler,M8 Series,82.00
+3C101-84100,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder,M8 Series,580.00
+3C101-75100,K-Monitor Display,Electrical,K-Monitor Pro HD color display,M8 Series,2500.00
+3C101-75200,GPS Receiver,Electrical,Kubota GNSS receiver module,M8 Series,3500.00
+6A100-83200,Cab Air Filter,Cab,Cab recirculation air filter,M8 Series,32.00
+6A100-83201,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,M8 Series,38.00
+3C101-85100,Seat Assembly,Cab,Premium air-ride leather seat,M8 Series,1700.00
+K7581-54430,LED Work Light Kit,Electrical,LED work light kit - front and rear,M8 Series,380.00
+1C020-64012,Alternator,Electrical,150 amp alternator assembly,M8 Series,540.00
+3C101-86100,Front Weight Bracket,Ballast,Front weight mounting bracket,M8 Series,320.00
+3C101-86200,Rear Wheel Weight,Ballast,Rear wheel weight - 800 lb,M8 Series,380.00
+3C101-75300,Auto Steer Kit,Guidance,Kubota auto steering system,M8 Series,2800.00

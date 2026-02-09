@@ -1,0 +1,36 @@
+part_number,part_name,category,description,compatibility,price_usd
+84593600,Engine Oil Filter,Engine,Engine oil filter element,Steiger 420 / 470 / 500 / 540 / 580 / 620,28.00
+84412500,Fuel Filter Primary,Engine,Primary fuel filter / water separator,Steiger Series (FPT Cursor 13),36.00
+84412501,Fuel Filter Secondary,Engine,Secondary fuel filter element,Steiger Series (FPT Cursor 13),40.00
+87684100,Air Filter Outer,Engine,Engine air filter - outer element,Steiger Series,110.00
+87684101,Air Filter Inner,Engine,Engine air filter - inner safety element,Steiger Series,75.00
+84390400,DEF Filter,Engine,Diesel exhaust fluid filter,Steiger Series (Tier 4B),44.00
+87804200,Turbocharger,Engine,Compound turbocharger assembly,Steiger 540 / 580 / 620,5200.00
+87803600,Water Pump,Engine,Engine coolant water pump,Steiger Series,620.00
+87804300,Injector Assembly,Engine,Fuel injector - single cylinder,Steiger Series,480.00
+87804400,Head Gasket Set,Engine,Cylinder head gasket set - complete,Steiger Series,750.00
+84469300,Powershift Transmission,Transmission,16F/2R full powershift transmission - reman,Steiger Series,12800.00
+84469310,Transmission Filter,Transmission,Transmission oil filter element,Steiger Series,58.00
+84469320,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,Steiger Series,1350.00
+84196800,PTO Clutch Pack,Transmission,1000 RPM PTO clutch pack assembly,Steiger Series,1850.00
+84469350,Final Drive LH,Drivetrain,Left-hand planetary final drive assembly,Steiger Series,5800.00
+84469351,Final Drive RH,Drivetrain,Right-hand planetary final drive assembly,Steiger Series,5800.00
+84469360,Differential Lock,Drivetrain,Front/rear differential lock actuator,Steiger Series,980.00
+84500100,Track Roller,Drivetrain,Track frame roller - single (Quadtrac),Steiger Quadtrac 470 / 500 / 540 / 580 / 620,420.00
+84500200,Track Belt,Drivetrain,Rubber track belt - 30 inch (Quadtrac),Steiger Quadtrac Series,7200.00
+84500300,Track Idler,Drivetrain,Front track idler wheel (Quadtrac),Steiger Quadtrac Series,1350.00
+84469400,Hydraulic Pump,Hydraulics,Main hydraulic pump - triple section,Steiger Series,3800.00
+84469410,Hydraulic Filter,Hydraulics,Hydraulic system return filter,Steiger Series,48.00
+84469420,SCV Coupler,Hydraulics,Selective control valve quick coupler,Steiger Series,98.00
+84469430,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder - Cat 4N,Steiger Series,1100.00
+84469440,Drawbar Assembly,Hydraulics,Heavy-duty swinging drawbar,Steiger Series,1280.00
+84412600,AFS Pro 1200,Electrical,AFS Pro 1200 display monitor,Steiger Series (2020+),3200.00
+84593700,AccuGuide Receiver,Electrical,AccuGuide GNSS receiver,Steiger Series,4200.00
+84469500,Alternator,Electrical,240 amp alternator assembly,Steiger Series,820.00
+84469510,Wiring Harness Main,Electrical,Main chassis wiring harness,Steiger Series,1650.00
+87684200,Cab Air Filter,Cab,Cab recirculation air filter,Steiger Series,42.00
+87684201,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,Steiger Series,50.00
+84469550,Seat Assembly,Cab,Surveyor cab seat - premium leather,Steiger Series,2350.00
+84593750,LED Light Package,Electrical,Premium LED work light package,Steiger Series,720.00
+84593780,AccuGuide Steering Kit,Guidance,AccuGuide automated steering system,Steiger Series,3400.00
+84347500,Front Ballast Group,Ballast,Front weight mounting frame,Steiger Series,680.00

@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+F900-001,Engine,SCR / AdBlue system fault codes,DEF Filter / Turbocharger,F931502070;F931502080,High
+F900-002,Engine,Coolant seep at water pump seal,Water Pump / Thermostat,F931502090;F931502095,High
+F900-003,Engine,Belt tensioner wear and squealing,Serpentine Belt / Alternator,F931502100;F931510060,Medium
+F900-004,Transmission,Vario CVT shudder at low speed transition,VarioDrive CVT / Trans Filter,F931504010;F931504020,High
+F900-005,Transmission,CVT overheating in prolonged PTO work,Trans Oil Cooler,F931504030,High
+F900-006,Transmission,PTO engagement vibration,PTO Clutch Pack,F931504040,Medium
+F900-007,Axles/Steering,Front axle suspension leak,Front Axle Assembly / Tie Rod,F931506010;F931506030,Medium
+F900-008,Axles/Steering,Steering drift on slopes,Steering Valve,F931506020,Medium
+F900-009,Hydraulics,Hydraulic pump noise at high flow demand,Hydraulic Pump / Filter,F931508010;F931508020,High
+F900-010,Hydraulics,Electronic SCV slow response,SCV Coupler,F931508030,Low
+F900-011,Hydraulics,3-point hitch cylinder leak,Hitch Cylinder,F931508040,Medium
+F900-012,Electrical,Varioterminal software glitches,Varioterminal,F931510010,Medium
+F900-013,Electrical,VarioGuide GPS signal dropout in valleys,VarioGuide Receiver / Steering Kit,F931510020;F931510070,High
+F900-014,Cab,HVAC performance degradation,Cab Air Filter / Fresh Air Filter,F931510030;F931510031,Low
+F900-015,Engine,Air filter restriction in sandy conditions,Air Filter Outer / Inner,F931502050;F931502051,Low
