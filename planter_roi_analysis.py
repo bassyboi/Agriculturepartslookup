@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
-High-ROI Planter Products Analysis
+High-ROI Planter Performance Upgrades Analysis
 
-Analyzes planter parts and common issues data to identify which products
-deliver the highest return on investment (ROI) for stocking and sales.
+Analyzes aftermarket planter products (closing wheels, seed firmers, meters,
+downforce systems, etc.) to rank them by return on investment for planting
+performance — yield gain per dollar spent.
 
-ROI scoring is based on:
-  - Issue frequency: how many distinct issues reference the part
-  - Severity weight: Critical=4, High=3, Medium=2, Low=1
-  - Price tier: higher price parts generate more revenue per sale
-  - Model reach: parts compatible with more models have a wider market
+ROI is calculated from:
+  - Estimated yield gain (bu/ac) from field trial data
+  - Corn price assumption for revenue per bushel
+  - Product cost (per-row or per-planter)
+  - Payback acreage — how many acres before the upgrade pays for itself
+  - Planter compatibility breadth
 
 Outputs:
-  products/planter_high_roi_report.csv  - ranked list of all planter parts
-  (stdout summary of top products)
+  products/planter_high_roi_report.csv  - ranked upgrades by ROI %
+  (stdout summary with tier breakdown)
 """
 
 import csv
@@ -22,125 +24,117 @@ import sys
 from collections import defaultdict
 
 PRODUCTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "products")
+UPGRADES_CSV = os.path.join(PRODUCTS_DIR, "planter_performance_upgrades.csv")
 
-PLANTER_FOLDERS = [
-    "jd1720_planter",
-    "maximerge_xp_planter",
-]
-
-SEVERITY_WEIGHTS = {
-    "Critical": 4,
-    "High": 3,
-    "Medium": 2,
-    "Low": 1,
-}
+# Assumption for revenue calculation
+CORN_PRICE_PER_BU = 4.50
 
 
-def load_parts(csv_path):
-    """Load parts CSV into a list of dicts."""
-    parts = {}
+def load_upgrades(csv_path):
+    """Load planter performance upgrades CSV."""
+    upgrades = []
     with open(csv_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            pn = row["part_number"].strip()
-            parts[pn] = {
-                "part_number": pn,
-                "part_name": row["part_name"].strip(),
+            upgrades.append({
+                "product_name": row["product_name"].strip(),
+                "manufacturer": row["manufacturer"].strip(),
                 "category": row["category"].strip(),
                 "description": row["description"].strip(),
-                "compatibility": row["compatibility"].strip(),
-                "price_usd": float(row["price_usd"]),
-            }
-    return parts
-
-
-def load_issues(csv_path):
-    """Load common issues CSV into a list of dicts."""
-    issues = []
-    with open(csv_path, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            rec_parts = [
-                p.strip()
-                for p in row["recommended_part_numbers"].split(";")
-                if p.strip()
-            ]
-            issues.append({
-                "issue_id": row["issue_id"].strip(),
-                "issue_category": row["issue_category"].strip(),
-                "description": row["description"].strip(),
-                "affected_parts": row["affected_parts"].strip(),
-                "recommended_part_numbers": rec_parts,
-                "severity": row["severity"].strip(),
+                "approx_price_usd": float(row["approx_price_usd"]),
+                "price_basis": row["price_basis"].strip(),
+                "planter_compatibility": row["planter_compatibility"].strip(),
+                "performance_benefit": row["performance_benefit"].strip(),
+                "estimated_yield_gain_bu_ac": float(row["estimated_yield_gain_bu_ac"]),
+                "estimated_roi_percent": float(row["estimated_roi_percent"]),
+                "payback_acres": float(row["payback_acres"]),
+                "source_notes": row["source_notes"].strip(),
             })
-    return issues
+    return upgrades
 
 
 def count_compatible_models(compat_str):
-    """Estimate the number of compatible models from the compatibility field."""
+    """Count how many planter models a product fits."""
     return len([m.strip() for m in compat_str.replace("/", ",").split(",") if m.strip()])
 
 
-def compute_roi_scores(all_parts, all_issues):
+def compute_performance_roi(upgrades):
     """
-    Score every part based on:
-      issue_frequency  - number of distinct issues that recommend this part
-      severity_score   - sum of severity weights across those issues
-      price_tier       - normalized price contribution (higher price = more revenue)
-      model_reach      - number of compatible equipment models
+    Rank upgrades by planting performance ROI.
 
-    Final ROI score = issue_frequency * severity_score * price_factor * model_factor
+    Score factors:
+      - estimated_roi_percent (from CSV, based on field data)
+      - yield_gain_bu_ac * corn price = revenue per acre
+      - payback_acres (lower = faster payback = better)
+      - compatibility_bonus (fits more planters = more useful)
+
+    Composite score weights the farmer's return:
+      score = (roi_pct * 0.4) + (revenue_per_ac / max_rev * 100 * 0.3)
+              + (inverse_payback * 0.2) + (compat_bonus * 0.1)
     """
-    # Map part_number -> list of issues that reference it
-    part_issue_map = defaultdict(list)
-    for issue in all_issues:
-        for pn in issue["recommended_part_numbers"]:
-            part_issue_map[pn].append(issue)
-
-    # Find max price for normalization
-    max_price = max((p["price_usd"] for p in all_parts.values()), default=1)
+    # Pre-compute normalizers
+    max_revenue = max(
+        u["estimated_yield_gain_bu_ac"] * CORN_PRICE_PER_BU for u in upgrades
+    )
+    max_payback = max(u["payback_acres"] for u in upgrades)
 
     results = []
-    for pn, part in all_parts.items():
-        linked_issues = part_issue_map.get(pn, [])
-        issue_freq = len(linked_issues)
-        severity_score = sum(
-            SEVERITY_WEIGHTS.get(iss["severity"], 1) for iss in linked_issues
-        )
-        price_factor = 1 + (part["price_usd"] / max_price)  # range [1, 2]
-        model_reach = count_compatible_models(part["compatibility"])
-        model_factor = 1 + (model_reach - 1) * 0.15  # small bonus per extra model
+    for u in upgrades:
+        revenue_per_ac = u["estimated_yield_gain_bu_ac"] * CORN_PRICE_PER_BU
+        inverse_payback = (1 - u["payback_acres"] / max_payback) * 100
+        compat_count = count_compatible_models(u["planter_compatibility"])
+        compat_bonus = min(compat_count * 8, 100)  # cap at 100
 
-        roi_score = issue_freq * severity_score * price_factor * model_factor
-
-        # Collect the issue IDs and severities that reference this part
-        issue_details = "; ".join(
-            f"{iss['issue_id']}({iss['severity']})" for iss in linked_issues
+        composite_score = (
+            u["estimated_roi_percent"] * 0.4
+            + (revenue_per_ac / max_revenue) * 100 * 0.3
+            + inverse_payback * 0.2
+            + compat_bonus * 0.1
         )
 
         results.append({
-            "part_number": pn,
-            "part_name": part["part_name"],
-            "category": part["category"],
-            "price_usd": part["price_usd"],
-            "compatibility": part["compatibility"],
-            "issue_frequency": issue_freq,
-            "severity_score": severity_score,
-            "model_reach": model_reach,
-            "roi_score": round(roi_score, 2),
-            "linked_issues": issue_details,
+            "product_name": u["product_name"],
+            "manufacturer": u["manufacturer"],
+            "category": u["category"],
+            "approx_price_usd": u["approx_price_usd"],
+            "price_basis": u["price_basis"],
+            "yield_gain_bu_ac": u["estimated_yield_gain_bu_ac"],
+            "revenue_per_ac": round(revenue_per_ac, 2),
+            "roi_percent": u["estimated_roi_percent"],
+            "payback_acres": u["payback_acres"],
+            "planter_compatibility": u["planter_compatibility"],
+            "composite_score": round(composite_score, 1),
+            "performance_benefit": u["performance_benefit"],
+            "source_notes": u["source_notes"],
         })
 
-    results.sort(key=lambda r: r["roi_score"], reverse=True)
+    results.sort(key=lambda r: r["composite_score"], reverse=True)
+    return results
+
+
+def assign_tiers(results):
+    """Assign ROI tiers based on composite score."""
+    for r in results:
+        score = r["composite_score"]
+        if score >= 70:
+            r["roi_tier"] = "Top Tier"
+        elif score >= 50:
+            r["roi_tier"] = "Strong"
+        elif score >= 30:
+            r["roi_tier"] = "Moderate"
+        else:
+            r["roi_tier"] = "Situational"
     return results
 
 
 def write_report_csv(results, out_path):
     """Write the ranked ROI report to CSV."""
     fieldnames = [
-        "rank", "part_number", "part_name", "category", "price_usd",
-        "compatibility", "issue_frequency", "severity_score", "model_reach",
-        "roi_score", "linked_issues",
+        "rank", "roi_tier", "product_name", "manufacturer", "category",
+        "approx_price_usd", "price_basis", "yield_gain_bu_ac",
+        "revenue_per_ac", "roi_percent", "payback_acres",
+        "composite_score", "planter_compatibility",
+        "performance_benefit", "source_notes",
     ]
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -150,78 +144,73 @@ def write_report_csv(results, out_path):
             writer.writerow(row)
 
 
-def print_summary(results, top_n=15):
-    """Print a human-readable summary of the top ROI parts."""
-    print("=" * 80)
-    print(f"  HIGH-ROI PLANTER PRODUCTS  (top {top_n})")
-    print("=" * 80)
+def print_summary(results):
+    """Print a human-readable summary."""
+    print("=" * 100)
+    print("  HIGH-ROI PLANTER PERFORMANCE UPGRADES")
+    print(f"  (corn @ ${CORN_PRICE_PER_BU:.2f}/bu)")
+    print("=" * 100)
     print(
-        f"{'Rank':<5} {'Part #':<12} {'Name':<30} {'Price':>8} "
-        f"{'Issues':>7} {'Sev':>5} {'ROI':>8}"
+        f"{'Rank':<5} {'Tier':<12} {'Product':<32} {'Mfg':<22} "
+        f"{'Price':>8} {'Yield':>7} {'$/ac':>7} {'ROI%':>6} "
+        f"{'Payback':>8} {'Score':>6}"
     )
-    print("-" * 80)
+    print("-" * 100)
 
-    for i, r in enumerate(results[:top_n], 1):
+    for i, r in enumerate(results, 1):
         print(
-            f"{i:<5} {r['part_number']:<12} {r['part_name']:<30} "
-            f"${r['price_usd']:>7.2f} {r['issue_frequency']:>7} "
-            f"{r['severity_score']:>5} {r['roi_score']:>8.1f}"
+            f"{i:<5} {r['roi_tier']:<12} {r['product_name']:<32} "
+            f"{r['manufacturer']:<22} "
+            f"${r['approx_price_usd']:>7.0f} "
+            f"{r['yield_gain_bu_ac']:>5.1f}bu "
+            f"${r['revenue_per_ac']:>5.2f} "
+            f"{r['roi_percent']:>5.0f}% "
+            f"{r['payback_acres']:>6.0f}ac "
+            f"{r['composite_score']:>5.1f}"
         )
 
-    print("-" * 80)
+    print("-" * 100)
 
-    # Category breakdown
-    cat_scores = defaultdict(float)
-    cat_counts = defaultdict(int)
+    # Category summary
+    cat_scores = defaultdict(list)
     for r in results:
-        if r["roi_score"] > 0:
-            cat_scores[r["category"]] += r["roi_score"]
-            cat_counts[r["category"]] += 1
+        cat_scores[r["category"]].append(r)
 
-    print("\n  ROI BY CATEGORY (parts with at least one linked issue)")
-    print(f"  {'Category':<25} {'Parts':>6} {'Total ROI':>10} {'Avg ROI':>10}")
-    print("  " + "-" * 55)
-    for cat in sorted(cat_scores, key=cat_scores.get, reverse=True):
-        avg = cat_scores[cat] / cat_counts[cat] if cat_counts[cat] else 0
+    print("\n  BEST UPGRADE BY CATEGORY")
+    print(f"  {'Category':<28} {'Best Product':<32} {'ROI%':>6} {'Score':>6}")
+    print("  " + "-" * 75)
+    for cat in sorted(cat_scores, key=lambda c: max(r["composite_score"] for r in cat_scores[c]), reverse=True):
+        best = max(cat_scores[cat], key=lambda r: r["composite_score"])
         print(
-            f"  {cat:<25} {cat_counts[cat]:>6} "
-            f"{cat_scores[cat]:>10.1f} {avg:>10.1f}"
+            f"  {cat:<28} {best['product_name']:<32} "
+            f"{best['roi_percent']:>5.0f}% {best['composite_score']:>5.1f}"
         )
+
+    # Tier summary
+    tier_counts = defaultdict(int)
+    for r in results:
+        tier_counts[r["roi_tier"]] += 1
+
+    print(f"\n  TIER BREAKDOWN")
+    for tier in ["Top Tier", "Strong", "Moderate", "Situational"]:
+        if tier_counts[tier]:
+            names = [r["product_name"] for r in results if r["roi_tier"] == tier]
+            print(f"  {tier:<14} ({tier_counts[tier]}) - {', '.join(names)}")
+
     print()
 
 
 def main():
-    all_parts = {}
-    all_issues = []
-
-    for folder in PLANTER_FOLDERS:
-        folder_path = os.path.join(PRODUCTS_DIR, folder)
-        if not os.path.isdir(folder_path):
-            print(f"Warning: folder not found: {folder_path}", file=sys.stderr)
-            continue
-
-        # Find CSV files
-        for fname in os.listdir(folder_path):
-            fpath = os.path.join(folder_path, fname)
-            if fname.endswith("_parts.csv"):
-                parts = load_parts(fpath)
-                all_parts.update(parts)
-                print(f"Loaded {len(parts)} parts from {folder}/{fname}")
-            elif fname.endswith("_common_issues.csv"):
-                issues = load_issues(fpath)
-                all_issues.extend(issues)
-                print(f"Loaded {len(issues)} issues from {folder}/{fname}")
-
-    if not all_parts:
-        print("No planter parts data found.", file=sys.stderr)
+    if not os.path.exists(UPGRADES_CSV):
+        print(f"Error: {UPGRADES_CSV} not found.", file=sys.stderr)
         sys.exit(1)
 
-    print(f"\nTotal: {len(all_parts)} parts, {len(all_issues)} issues across "
-          f"{len(PLANTER_FOLDERS)} planter product lines\n")
+    upgrades = load_upgrades(UPGRADES_CSV)
+    print(f"Loaded {len(upgrades)} planter performance upgrades\n")
 
-    results = compute_roi_scores(all_parts, all_issues)
+    results = compute_performance_roi(upgrades)
+    results = assign_tiers(results)
 
-    # Write CSV report
     out_csv = os.path.join(PRODUCTS_DIR, "planter_high_roi_report.csv")
     write_report_csv(results, out_csv)
     print(f"Report written to: {out_csv}\n")

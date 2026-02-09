@@ -33,20 +33,30 @@ Each product folder contains two CSV files:
 - `recommended_part_numbers` - Part numbers to resolve the issue (semicolon-separated)
 - `severity` - Low / Medium / High / Critical
 
-## High-ROI Planter Products Analysis
+## High-ROI Planter Performance Upgrades
 
-The `planter_roi_analysis.py` script cross-references planter parts and common issues data to rank products by return-on-investment potential.
+The `planter_roi_analysis.py` script ranks aftermarket planter upgrades — closing wheels, seed firmers, meters, downforce systems, speed tubes, row cleaners — by their return on investment for planting performance (yield gain per dollar spent).
+
+### Data
+
+`products/planter_performance_upgrades.csv` contains 16 aftermarket products from Precision Planting, Martin Industries, Yetter, Copperhead Ag, Schaffert, and Ag Leader with:
+- Estimated yield gain (bu/ac) from field trials
+- Approximate price per row or per planter
+- ROI percentage and payback acreage
+- Planter compatibility (JD 1720, 7200/7300, Kinze, Case IH)
 
 ### ROI Scoring
 
-Each part is scored on four factors:
+Each upgrade is scored on four weighted factors:
 
-| Factor | Description |
-|--------|-------------|
-| **Issue frequency** | Number of distinct issues that recommend this part |
-| **Severity weight** | Sum of severity weights (Critical=4, High=3, Medium=2, Low=1) |
-| **Price tier** | Higher price parts generate more revenue per sale |
-| **Model reach** | Parts compatible with more models have a wider market |
+| Factor (weight) | Description |
+|-----------------|-------------|
+| **ROI %** (40%) | Field-data estimated return on investment |
+| **Revenue/ac** (30%) | Yield gain x corn price ($4.50/bu default) |
+| **Payback speed** (20%) | Inverse of payback acreage — faster payback scores higher |
+| **Compatibility** (10%) | Number of planter models the upgrade fits |
+
+Products are tiered: **Top Tier** (score >= 70), **Strong** (>= 50), **Moderate** (>= 30), **Situational** (< 30).
 
 ### Usage
 
@@ -56,15 +66,8 @@ python planter_roi_analysis.py
 
 ### Output
 
-- `products/planter_high_roi_report.csv` - All planter parts ranked by ROI score
-- Console summary of top 15 products and category breakdown
-
-### Planter Product Lines Analyzed
-
-| Folder | Equipment |
-|--------|-----------|
-| `products/jd1720_planter/` | JD 1720 Planter |
-| `products/maximerge_xp_planter/` | MaxEmerge XP Planter (7200/7300 series) |
+- `products/planter_high_roi_report.csv` - All upgrades ranked by composite ROI score
+- Console summary with tier breakdown and best-in-category picks
 
 ## Forum Mining Tool
 
