@@ -1,0 +1,31 @@
+part_number,part_name,category,description,compatibility,price_usd
+AA74745,Seed Meter Assembly,Seed Metering,MaxEmerge 5 seed meter - complete,JD 1720 / 1725 / 1755,685.00
+AA74890,Seed Disc,Seed Metering,Seed meter disc - corn 30 cell,JD 1720 / 1725,48.00
+AA74891,Seed Disc Soybean,Seed Metering,Seed meter disc - soybean 108 cell,JD 1720 / 1725,48.00
+AA75102,Seed Tube,Seed Metering,Seed delivery tube assembly,JD 1720 / 1725 / 1755,32.00
+AA74558,Seed Sensor,Seed Metering,Optical seed sensor - per row,JD 1720 / 1725 / 1755,285.00
+AA77340,Vacuum Fan,Vacuum System,Central vacuum fan assembly,JD 1720,520.00
+AA77125,Vacuum Hose Kit,Vacuum System,Row unit vacuum hose set - 12 row,JD 1720 (12R30),165.00
+AA76995,Vacuum Seal Kit,Vacuum System,Seed meter vacuum seal replacement kit,JD 1720 / 1725,28.00
+AA78215,Vacuum Regulator,Vacuum System,Vacuum pressure regulator valve,JD 1720,185.00
+BA32456,Gauge Wheel Arm,Row Unit,Gauge wheel arm assembly - LH,JD 1720 / 1725 / 1755,145.00
+BA32457,Gauge Wheel Arm RH,Row Unit,Gauge wheel arm assembly - RH,JD 1720 / 1725 / 1755,145.00
+BA32890,Gauge Wheel,Row Unit,Gauge wheel - rubber 4.5 x 16,JD 1720 / 1725 / 1755,78.00
+AA75660,Opener Disc,Row Unit,Single disc opener - 15 inch,JD 1720 / 1725,125.00
+AA76220,Closing Wheel,Row Unit,Standard rubber closing wheel,JD 1720 / 1725 / 1755,65.00
+AA76221,Closing Wheel Spike,Row Unit,Spiked closing wheel - aftermarket style,JD 1720 / 1725 / 1755,85.00
+BA33110,Parallel Arm,Row Unit,Row unit parallel arm - upper,JD 1720 / 1725,195.00
+BA33111,Parallel Arm Lower,Row Unit,Row unit parallel arm - lower,JD 1720 / 1725,195.00
+AA79550,Downforce Spring,Row Unit,Row unit downforce spring - heavy,JD 1720 / 1725 / 1755,42.00
+AA79990,Pneumatic Downforce Kit,Row Unit,Active pneumatic downforce kit per row,JD 1720 / 1725,385.00
+RE530280,Hydraulic Drive Motor,Drive System,Row unit hydraulic drive motor,JD 1720,1250.00
+AA80125,Drive Chain,Drive System,Seed meter drive chain assembly,JD 1720 / 1725,68.00
+AA80340,Drive Sprocket,Drive System,Seed meter drive sprocket set,JD 1720 / 1725,55.00
+AA81770,Bearing Kit,Drive System,Row unit bearing replacement kit,JD 1720 / 1725 / 1755,85.00
+RE535590,Ground Speed Radar,Electrical,Ground speed radar sensor,JD 1720 / 1725,340.00
+AA82115,Wiring Harness,Electrical,Planter main wiring harness - 12 row,JD 1720 (12R30),785.00
+AA82340,Row Harness,Electrical,Individual row wiring harness,JD 1720 / 1725,95.00
+RE538770,SeedStar Monitor,Monitoring,SeedStar 2 planter monitor display,JD 1720 / 1725,1850.00
+AA83560,Population Sensor,Monitoring,Seed population sensor - per row,JD 1720 / 1725,215.00
+AA84220,Marker Disc,Toolbar,Row marker disc assembly,JD 1720,285.00
+AA84550,Toolbar Extension,Toolbar,Toolbar wing extension bracket,JD 1720 (16R30),420.00

@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+8R-001,Engine,DEF system regeneration faults,DEF Filter / Turbocharger,DZ115389;RE546794,High
+8R-002,Engine,Coolant leak at water pump,Water Pump / Thermostat,RE558862;RE575090,High
+8R-003,Engine,Serpentine belt squealing or slipping,Serpentine Belt / Alternator,RE589817;RE584320,Medium
+8R-004,Transmission,IVT harsh shifting or slipping,IVT Transmission / Trans Filter,RE586395;AL225211,High
+8R-005,Transmission,e23 shift delay or hesitation,e23 Transmission / Trans Oil Cooler,RE584165;AL227649,High
+8R-006,Transmission,PTO engagement shudder,PTO Clutch Pack,RE581668,Medium
+8R-007,Axles/Steering,MFWD front axle seal leak,Front Axle Assembly / Tie Rod,RE577910;RE583118,Medium
+8R-008,Axles/Steering,Steering wander or drift,Steering Orbital,RE579233,Medium
+8R-009,Hydraulics,Hydraulic pump whining noise,Hydraulic Pump / Filter,RE587063;AL219834,High
+8R-010,Hydraulics,SCV couplers leaking under load,SCV Coupler / Power Beyond Kit,AL228922;AL220085,Low
+8R-011,Hydraulics,3-point hitch drift under load,Hitch Cylinder,RE578712,Medium
+8R-012,Electrical,CommandCenter display freezing,CommandCenter Display,RE589330,Medium
+8R-013,Electrical,AutoTrac losing GPS signal,StarFire Receiver / AutoTrac Controller,RE592108;RE588412,High
+8R-014,Cab,HVAC blower weak airflow,Cab Air Filter / Fresh Air Filter,PF80918;PF80919,Low
+8R-015,Engine,Air filter restriction alarm,Air Filter Outer / Inner,RE587794;RE587795,Low
