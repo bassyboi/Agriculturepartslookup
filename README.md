@@ -33,6 +33,42 @@ Each product folder contains two CSV files:
 - `recommended_part_numbers` - Part numbers to resolve the issue (semicolon-separated)
 - `severity` - Low / Medium / High / Critical
 
+## High-ROI Planter Performance Upgrades
+
+The `planter_roi_analysis.py` script ranks aftermarket planter upgrades — closing wheels, seed firmers, meters, downforce systems, speed tubes, row cleaners — by their return on investment for planting performance (yield gain per dollar spent).
+
+### Data
+
+`products/planter_performance_upgrades.csv` contains 16 aftermarket products from Precision Planting, Martin Industries, Yetter, Copperhead Ag, Schaffert, and Ag Leader with:
+- Estimated yield gain (bu/ac) from field trials
+- Approximate price per row or per planter
+- ROI percentage and payback acreage
+- Planter compatibility (JD 1720, 7200/7300, Kinze, Case IH)
+
+### ROI Scoring
+
+Each upgrade is scored on four weighted factors:
+
+| Factor (weight) | Description |
+|-----------------|-------------|
+| **ROI %** (40%) | Field-data estimated return on investment |
+| **Revenue/ac** (30%) | Yield gain x corn price ($4.50/bu default) |
+| **Payback speed** (20%) | Inverse of payback acreage — faster payback scores higher |
+| **Compatibility** (10%) | Number of planter models the upgrade fits |
+
+Products are tiered: **Top Tier** (score >= 70), **Strong** (>= 50), **Moderate** (>= 30), **Situational** (< 30).
+
+### Usage
+
+```bash
+python planter_roi_analysis.py
+```
+
+### Output
+
+- `products/planter_high_roi_report.csv` - All upgrades ranked by composite ROI score
+- Console summary with tier breakdown and best-in-category picks
+
 ## Forum Mining Tool
 
 The `jd1720_forum_miner.py` script scrapes agricultural forums to identify common JD 1720 planter issues and the parts discussed in forum threads.
