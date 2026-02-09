@@ -1,0 +1,21 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+9R-001,Engine,DEF system fault / reduced power,DEF Filter / Injector Assembly,DZ118904;RE594882,High
+9R-002,Engine,Turbocharger boost pressure low,Turbocharger / Air Filter,RE594150;RE593210;RE593211,High
+9R-003,Engine,Coolant loss at water pump weep hole,Water Pump,RE590830,High
+9R-004,Engine,Viscous fan clutch not engaging,Fan Drive,RE591455,Medium
+9R-005,Engine,Head gasket seeping coolant,Head Gasket Set,RE595010,Critical
+9R-006,Transmission,e18 shift quality degradation,e18 Transmission / Trans Filter,RE597241;AL230178,High
+9R-007,Transmission,e23 gear hunting on hills,e23 Transmission / Trans Oil Cooler,RE598855;AL231590,High
+9R-008,Transmission,PTO shudder at engagement,PTO Clutch Pack,RE596330,Medium
+9R-009,Drivetrain,Final drive oil leak at seal,Final Drive LH / RH,RE597780;RE597781,High
+9R-010,Drivetrain,Differential lock not releasing,Differential Lock Actuator,RE596115,Medium
+9R-011,Drivetrain,Track roller bearing failure (9RX),Track Roller,RE599440,High
+9R-012,Drivetrain,Track belt cupping or cracking (9RX),Track Belt / Track Idler,RE599780;RE599120,High
+9R-013,Hydraulics,Hydraulic pump noise at high RPM,Hydraulic Pump / Filter,RE598220;AL232560,High
+9R-014,Hydraulics,3-point hitch slow to raise,Hitch Cylinder,RE597550,Medium
+9R-015,Hydraulics,SCV couplers dripping fluid,SCV Coupler,AL233890,Low
+9R-016,Electrical,CommandCenter reboot loop,CommandCenter Display,RE600115,High
+9R-017,Electrical,GPS accuracy degradation,StarFire Receiver / AutoTrac,RE601230;RE601550,Medium
+9R-018,Electrical,Alternator undercharging batteries,Alternator,RE599985,High
+9R-019,Electrical,Wiring harness chafe / short,Wiring Harness Main,RE600445,High
+9R-020,Cab,HVAC insufficient cooling,Cab Air Filter / Fresh Air Filter,PF81225;PF81226,Low

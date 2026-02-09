@@ -1,0 +1,31 @@
+part_number,part_name,category,description,compatibility,price_usd
+AN276846,Spindle Assembly,Picking Unit,Row unit spindle assembly - complete,CP770 / CP690,485.00
+AN279557,Moistener Pad Kit,Picking Unit,Spindle moistener pad replacement kit,CP770 / CP690,62.50
+N372790,Picker Bar,Picking Unit,Picker bar assembly with bushings,CP770 / CP690 / 9976,215.00
+AN278336,Doffers,Picking Unit,Doffer assembly - complete per row,CP770 / CP690,340.00
+AN274553,Row Unit Gearbox,Picking Unit,Row unit drive gearbox with seals,CP770,890.00
+KK17412,Pressure Plate,Picking Unit,Pressure plate for picker bar,CP770 / CP690,125.00
+AN279025,Cam Track,Picking Unit,Spindle cam track - upper,CP770 / CP690,178.00
+AN279026,Cam Track Lower,Picking Unit,Spindle cam track - lower,CP770 / CP690,178.00
+AN205553,Fan Belt,Air System,Main fan drive belt,CP770,89.00
+AN206497,Fan Bearing,Air System,Fan shaft bearing assembly,CP770 / CP690,135.00
+AN277115,Column Auger,Air System,Air column auger drive,CP770,445.00
+AN207649,Duct Door Seal,Air System,Air duct door seal kit,CP770 / CP690,34.00
+RE527354,Hydraulic Pump,Hydraulic System,Main hydraulic pump assembly,CP770,2850.00
+RE526755,Hydraulic Motor,Hydraulic System,Fan drive hydraulic motor,CP770,1675.00
+AN303275,Hydraulic Filter,Hydraulic System,Hydraulic system filter element,CP770 / CP690,42.00
+AN302577,Hydraulic Hose Kit,Hydraulic System,Row unit hydraulic hose set,CP770,188.00
+RE546918,ECU Module,Electrical,Electronic control unit - picking,CP770,1250.00
+AN276210,Wiring Harness,Electrical,Main chassis wiring harness,CP770,685.00
+AN279770,Row Sensor,Electrical,Row unit yield sensor assembly,CP770,475.00
+AN303119,Moisture Sensor,Electrical,Cotton moisture sensor,CP770,395.00
+RE532244,Engine Oil Filter,Engine,Engine oil filter element,CP770 (6135 PowerTech),18.50
+RE525523,Fuel Filter,Engine,Primary fuel filter element,CP770 (6135 PowerTech),24.00
+RE546336,Air Filter,Engine,Engine air filter - outer,CP770 (6135 PowerTech),68.00
+RE546337,Air Filter Inner,Engine,Engine air filter - inner safety,CP770 (6135 PowerTech),45.00
+AN277785,Basket Assembly,Basket/Conveying,Cotton basket frame assembly,CP770,1450.00
+AN278150,Basket Door Cylinder,Basket/Conveying,Hydraulic cylinder - basket door,CP770,565.00
+AN206880,Cross Auger,Basket/Conveying,Cross auger drive assembly,CP770 / CP690,520.00
+AN303440,Conveyor Chain,Basket/Conveying,Cotton conveyor chain with flights,CP770,310.00
+AN304112,Pro-16 Wrap Sensor,Monitoring,Pro-16 round module wrap sensor,CP770,285.00
+AN303895,Module Builder Cylinder,Module Building,Module builder compress cylinder,CP770,975.00

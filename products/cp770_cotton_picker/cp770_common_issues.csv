@@ -1,0 +1,15 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+CP770-001,Picking Unit,Spindle not rotating - worn cam track,Cam Track / Spindle Assembly,AN279025;AN279026;AN276846,High
+CP770-002,Picking Unit,Doffer not stripping cotton properly,Doffer Assembly / Moistener Pads,AN278336;AN279557,Medium
+CP770-003,Picking Unit,Row unit gearbox leaking oil,Row Unit Gearbox / Seals,AN274553,High
+CP770-004,Air System,Low suction in air column,Fan Belt / Fan Bearing / Column Auger,AN205553;AN206497;AN277115,High
+CP770-005,Air System,Air duct door not sealing,Duct Door Seal,AN207649,Low
+CP770-006,Hydraulic System,Hydraulic pump pressure drop,Hydraulic Pump / Filter,RE527354;AN303275,High
+CP770-007,Hydraulic System,Fan drive motor overheating,Hydraulic Motor,RE526755,High
+CP770-008,Electrical,Yield monitor inaccurate readings,Row Sensor / Moisture Sensor,AN279770;AN303119,Medium
+CP770-009,Electrical,ECU communication fault codes,ECU Module / Wiring Harness,RE546918;AN276210,High
+CP770-010,Basket/Conveying,Basket door not opening fully,Basket Door Cylinder,AN278150,Medium
+CP770-011,Basket/Conveying,Conveyor chain stretching/breaking,Conveyor Chain,AN303440,Medium
+CP770-012,Module Building,Module density inconsistent,Module Builder Cylinder,AN303895,Medium
+CP770-013,Engine,Engine overheating at high load,Air Filter / Coolant System,RE546336;RE546337,High
+CP770-014,Monitoring,Wrap sensor false alarms,Pro-16 Wrap Sensor,AN304112,Low

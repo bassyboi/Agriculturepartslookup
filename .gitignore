@@ -1,4 +1,9 @@
 __pycache__/
 *.pyc
 output/
-jd1720_*.csv
+
+# Forum miner output CSVs (generated, not tracked)
+jd1720_threads.csv
+jd1720_aggregate.csv
+
+# Track product folder CSVs (do NOT ignore products/)

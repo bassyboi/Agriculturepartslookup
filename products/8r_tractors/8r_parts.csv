@@ -1,0 +1,34 @@
+part_number,part_name,category,description,compatibility,price_usd
+RE572138,Engine Oil Filter,Engine,Engine oil filter - primary,8R 230 / 8R 250 / 8R 280 / 8R 310 / 8R 340 / 8R 370 / 8R 410,22.50
+RE576694,Fuel Filter Primary,Engine,Primary fuel filter / water separator,8R Series (6090 PowerTech),28.00
+RE576695,Fuel Filter Secondary,Engine,Secondary fuel filter element,8R Series (6090 PowerTech),32.00
+RE587794,Air Filter Outer,Engine,Engine air filter - outer element,8R Series,78.00
+RE587795,Air Filter Inner,Engine,Engine air filter - inner safety element,8R Series,52.00
+DZ115389,DEF Filter,Engine,Diesel exhaust fluid filter,8R Series (Tier 4),38.00
+RE546794,Turbocharger,Engine,Turbocharger assembly - complete,8R 310 / 8R 340 / 8R 370 / 8R 410,3250.00
+RE558862,Water Pump,Engine,Engine coolant water pump,8R Series,485.00
+RE575090,Thermostat,Engine,Engine thermostat assembly,8R Series,65.00
+RE589817,Serpentine Belt,Engine,Engine accessory drive belt,8R Series,95.00
+RE586395,IVT Transmission,Transmission,Infinitely Variable Transmission - reman,8R 280 / 8R 310 / 8R 340,8500.00
+RE584165,e23 Transmission,Transmission,e23 PowerShift transmission - reman,8R 230 / 8R 250 / 8R 280,7200.00
+AL225211,Transmission Filter,Transmission,Transmission oil filter element,8R Series,45.00
+AL227649,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,8R Series,890.00
+RE581668,PTO Clutch Pack,Transmission,PTO clutch pack assembly,8R Series,1350.00
+RE577910,Front Axle Assembly,Axles/Steering,MFWD front axle - complete,8R Series,4800.00
+RE579233,Steering Orbital,Axles/Steering,Steering orbital valve unit,8R Series,785.00
+RE583118,Tie Rod End,Axles/Steering,Outer tie rod end - MFWD,8R Series,145.00
+AL220085,Power Beyond Kit,Hydraulics,Power beyond hydraulic kit,8R Series,565.00
+RE587063,Hydraulic Pump,Hydraulics,Main hydraulic pump - tandem,8R Series,2450.00
+AL219834,Hydraulic Filter,Hydraulics,Hydraulic system return filter,8R Series,38.00
+AL228922,SCV Coupler,Hydraulics,Selective control valve quick coupler,8R Series,85.00
+RE578712,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder,8R Series,680.00
+RE589330,CommandCenter Display,Electrical,4600 CommandCenter display,8R Series (2020+),2850.00
+RE592108,StarFire Receiver,Electrical,StarFire 7000 GPS receiver,8R Series,4500.00
+PF80918,Cab Air Filter,Cab,Cab recirculation air filter,8R Series,35.00
+PF80919,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,8R Series,42.00
+RE578844,Seat Assembly,Cab,Premium air ride seat - leather,8R Series,1850.00
+RE592471,LED Work Light Kit,Electrical,Premium LED hood light kit,8R Series,425.00
+RE584320,Alternator,Electrical,200 amp alternator assembly,8R Series,650.00
+N404503,Front Weight Bracket,Ballast,Front weight mounting bracket,8R Series,385.00
+R551001,Rear Wheel Weight,Ballast,Rear wheel weight - 1000 lb,8R Series,450.00
+RE588412,AutoTrac Controller,Guidance,AutoTrac universal steering kit,8R Series,3200.00

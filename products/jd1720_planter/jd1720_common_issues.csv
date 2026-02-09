@@ -1,0 +1,19 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+JD1720-001,Seed Metering,Seed skips / poor singulation,Seed Disc / Seed Sensor / Vacuum Seal,AA74890;AA74558;AA76995,High
+JD1720-002,Seed Metering,Doubles in seed trench,Seed Meter Assembly / Seed Disc,AA74745;AA74890;AA74891,Medium
+JD1720-003,Seed Metering,Seed tube plugging,Seed Tube / Seed Sensor,AA75102;AA74558,Medium
+JD1720-004,Vacuum System,Vacuum fan not maintaining pressure,Vacuum Fan / Vacuum Regulator,AA77340;AA78215,High
+JD1720-005,Vacuum System,Vacuum hose leaking / cracking,Vacuum Hose Kit / Vacuum Seal Kit,AA77125;AA76995,Medium
+JD1720-006,Row Unit,Uneven depth placement,Gauge Wheel / Gauge Wheel Arm,BA32890;BA32456;BA32457,High
+JD1720-007,Row Unit,Seed trench not closing properly,Closing Wheel / Closing Wheel Spike,AA76220;AA76221,High
+JD1720-008,Row Unit,Opener disc worn / trenching poor,Opener Disc,AA75660,Medium
+JD1720-009,Row Unit,Parallel arms worn / sloppy movement,Parallel Arm Upper / Lower,BA33110;BA33111,High
+JD1720-010,Row Unit,Inconsistent downforce,Downforce Spring / Pneumatic Kit,AA79550;AA79990,Medium
+JD1720-011,Drive System,Hydraulic drive motor intermittent,Hydraulic Drive Motor,RE530280,High
+JD1720-012,Drive System,Drive chain stretched or skipping,Drive Chain / Sprocket,AA80125;AA80340,Medium
+JD1720-013,Drive System,Row unit bearing noise / failure,Bearing Kit,AA81770,Medium
+JD1720-014,Electrical,Ground speed signal dropout,Ground Speed Radar / Wiring Harness,RE535590;AA82115,High
+JD1720-015,Electrical,Row harness intermittent connection,Row Harness / Wiring Harness,AA82340;AA82115,Medium
+JD1720-016,Monitoring,SeedStar monitor blank / errors,SeedStar Monitor,RE538770,High
+JD1720-017,Monitoring,Population sensor inaccurate,Population Sensor / Seed Sensor,AA83560;AA74558,Medium
+JD1720-018,Toolbar,Row marker sticking / not folding,Marker Disc,AA84220,Low

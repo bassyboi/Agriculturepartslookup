@@ -1,0 +1,39 @@
+part_number,part_name,category,description,compatibility,price_usd
+RE590117,Engine Oil Filter,Engine,Engine oil filter element,9R 390 / 9R 440 / 9R 490 / 9R 540 / 9R 590 / 9R 640,26.00
+RE591375,Fuel Filter Primary,Engine,Primary fuel filter / water separator,9R Series (6135 PowerTech),34.00
+RE591376,Fuel Filter Secondary,Engine,Secondary fuel filter element,9R Series (6135 PowerTech),38.00
+RE593210,Air Filter Outer,Engine,Engine air filter - outer element,9R Series,95.00
+RE593211,Air Filter Inner,Engine,Engine air filter - inner safety element,9R Series,65.00
+DZ118904,DEF Filter,Engine,Diesel exhaust fluid filter,9R Series (Tier 4 Final),42.00
+RE594150,Turbocharger,Engine,Compound turbocharger assembly,9R 540 / 9R 590 / 9R 640,4500.00
+RE590830,Water Pump,Engine,Engine coolant water pump,9R Series,565.00
+RE591455,Fan Drive,Engine,Viscous fan drive clutch assembly,9R Series,785.00
+RE594882,Injector Assembly,Engine,Fuel injector - single cylinder,9R Series,425.00
+RE595010,Head Gasket Set,Engine,Cylinder head gasket set - complete,9R Series,680.00
+RE597241,e18 Transmission,Transmission,e18 PowerShift transmission - reman,9R 390 / 9R 440 / 9R 490,9800.00
+RE598855,e23 Transmission,Transmission,e23 PowerShift transmission - reman,9R 540 / 9R 590 / 9R 640,11500.00
+AL230178,Transmission Filter,Transmission,Transmission oil filter element,9R Series,52.00
+AL231590,Transmission Oil Cooler,Transmission,Transmission oil cooler assembly,9R Series,1120.00
+RE596330,PTO Clutch Pack,Transmission,1000 RPM PTO clutch pack assembly,9R Series,1650.00
+RE597780,Final Drive LH,Drivetrain,Left-hand final drive assembly,9R Series,5200.00
+RE597781,Final Drive RH,Drivetrain,Right-hand final drive assembly,9R Series,5200.00
+RE596115,Differential Lock,Drivetrain,Differential lock actuator assembly,9R Series,890.00
+RE599440,Track Roller,Drivetrain,Track frame roller - single (9RT/9RX),9RT 470 / 9RT 520 / 9RX 490 / 9RX 540 / 9RX 590 / 9RX 640,385.00
+RE599780,Track Belt,Drivetrain,Rubber track belt - 30 inch (9RX),9RX Series,6800.00
+RE599120,Track Idler,Drivetrain,Front track idler wheel (9RT/9RX),9RT / 9RX Series,1250.00
+RE598220,Hydraulic Pump,Hydraulics,Main hydraulic pump - triple section,9R Series,3450.00
+AL232560,Hydraulic Filter,Hydraulics,Hydraulic system return filter,9R Series,45.00
+AL233890,SCV Coupler,Hydraulics,Selective control valve quick coupler,9R Series,92.00
+RE597550,Hitch Cylinder,Hydraulics,3-point hitch lift cylinder - Cat 4,9R Series,980.00
+RE598605,Drawbar Assembly,Hydraulics,Heavy-duty swinging drawbar,9R Series,1150.00
+RE600115,CommandCenter Display,Electrical,4600 CommandCenter display - Gen 4,9R Series (2020+),2850.00
+RE601230,StarFire Receiver,Electrical,StarFire 7000 GPS receiver,9R Series,4500.00
+RE599985,Alternator,Electrical,240 amp alternator assembly,9R Series,780.00
+RE600445,Wiring Harness Main,Electrical,Main chassis wiring harness,9R Series,1450.00
+PF81225,Cab Air Filter,Cab,Cab recirculation air filter,9R Series,38.00
+PF81226,Cab Fresh Air Filter,Cab,Cab fresh air intake filter,9R Series,48.00
+RE601890,Seat Assembly,Cab,CommandView III cab seat - leather,9R Series,2150.00
+RE602210,LED Light Package,Electrical,Premium LED work light package,9R Series,685.00
+RE601550,AutoTrac Controller,Guidance,AutoTrac universal steering kit,9R Series,3200.00
+N410290,Front Weight Bracket,Ballast,Quik-Tatch front weight bracket,9R Series,520.00
+R555200,Suitcase Weight,Ballast,Front suitcase weight - 100 lb,9R Series,85.00
