@@ -1,0 +1,54 @@
+name: JD 1720 Forum Miner
+
+on:
+  # Run manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      urls_file:
+        description: "Optional: path to a text file with URLs (one per line)"
+        required: false
+        default: ""
+  # Scheduled run: weekly on Monday at 06:00 UTC
+  schedule:
+    - cron: "0 6 * * 1"
+  # Also run on pushes that touch the miner or workflow
+  push:
+    paths:
+      - "jd1720_forum_miner.py"
+      - "requirements.txt"
+      - ".github/workflows/forum-miner.yml"
+
+jobs:
+  mine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run forum miner
+        run: |
+          ARGS="--output-dir output"
+          if [ -n "${{ github.event.inputs.urls_file }}" ]; then
+            ARGS="$ARGS --urls-file ${{ github.event.inputs.urls_file }}"
+          fi
+          python jd1720_forum_miner.py $ARGS
+
+      - name: Upload CSV results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: forum-miner-results
+          path: output/*.csv
+          retention-days: 90
+          if-no-files-found: warn

@@ -10,6 +10,8 @@ NOTE:
 - Some forums require login; those pages will return little/blocked content.
 """
 
+import argparse
+import os
 import re
 import time
 import csv
@@ -196,19 +198,50 @@ def write_aggregate_csv(results: list[ThreadResult], out_csv: str):
                 w.writerow([domain, part, cnt])
 
 
+DEFAULT_URLS = [
+    # AgTalk examples around 1720 hydraulic drive / issues
+    "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=flat&setCookie=1&tid=786926",  # hyd drive starts/stops
+    "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=flat&setCookie=1&tid=786931",  # similar
+    "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=nested&setCookie=1&tid=702350", # vacuum distribution / endcaps
+    "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=flat&setCookie=1&tid=87695",   # planting rate problems / lag
+    "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=nested&setCookie=1&tid=302591",# voltage / harness mention
+    "https://talk.newagtalk.com/forums/thread-view.asp?mid=10745948&tid=1160484",                 # jerky drive motors (2024)
+    # CombineForum stackfold owners (more general)
+    "https://www.thecombineforum.com/threads/any-1720-stackfold-planter-owners-out-there.34161/",
+]
+
+
+def load_urls(path: str) -> list[str]:
+    """Load URLs from a text file (one per line, # comments allowed)."""
+    urls = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                urls.append(line)
+    return urls
+
+
 def main():
-    # Seed list: you can add your own URLs here
-    urls = [
-        # AgTalk examples around 1720 hydraulic drive / issues
-        "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=flat&setCookie=1&tid=786926",  # hyd drive starts/stops
-        "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=flat&setCookie=1&tid=786931",  # similar
-        "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=nested&setCookie=1&tid=702350", # vacuum distribution / endcaps
-        "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=flat&setCookie=1&tid=87695",   # planting rate problems / lag
-        "https://talk.newagtalk.com/forums/thread-view.asp?DisplayType=nested&setCookie=1&tid=302591",# voltage / harness mention
-        "https://talk.newagtalk.com/forums/thread-view.asp?mid=10745948&tid=1160484",                 # jerky drive motors (2024)
-        # CombineForum stackfold owners (more general)
-        "https://www.thecombineforum.com/threads/any-1720-stackfold-planter-owners-out-there.34161/",
-    ]
+    parser = argparse.ArgumentParser(description="JD 1720 Forum Miner")
+    parser.add_argument(
+        "--output-dir", "-o", default=".",
+        help="Directory to write CSV output files (default: current directory)",
+    )
+    parser.add_argument(
+        "--urls-file", "-f", default=None,
+        help="Text file with one URL per line (overrides built-in list)",
+    )
+    args = parser.parse_args()
+
+    out_dir = args.output_dir
+    os.makedirs(out_dir, exist_ok=True)
+
+    if args.urls_file:
+        urls = load_urls(args.urls_file)
+        print(f"Loaded {len(urls)} URLs from {args.urls_file}")
+    else:
+        urls = DEFAULT_URLS
 
     results = []
     for i, url in enumerate(urls, 1):
@@ -224,9 +257,12 @@ def main():
         print("No results. (Possibly blocked / login required / network issue.)")
         return
 
-    write_thread_csv(results, "jd1720_threads.csv")
-    write_aggregate_csv(results, "jd1720_aggregate.csv")
-    print("Done. Wrote jd1720_threads.csv and jd1720_aggregate.csv")
+    threads_csv = os.path.join(out_dir, "jd1720_threads.csv")
+    aggregate_csv = os.path.join(out_dir, "jd1720_aggregate.csv")
+
+    write_thread_csv(results, threads_csv)
+    write_aggregate_csv(results, aggregate_csv)
+    print(f"Done. Wrote {threads_csv} and {aggregate_csv}")
 
 
 if __name__ == "__main__":
