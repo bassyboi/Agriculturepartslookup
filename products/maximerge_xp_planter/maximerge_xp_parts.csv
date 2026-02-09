@@ -1,0 +1,35 @@
+part_number,part_name,category,description,compatibility,price_usd
+AA37474,Seed Finger Pickup Assembly,Seed Metering,MaxEmerge XP finger pickup meter - complete,JD 7200 / 7300 / 1700,595.00
+AA37505,Seed Finger Set,Seed Metering,Finger pickup set - corn,JD 7200 / 7300 / 1700,38.00
+AA37506,Seed Finger Set Soybean,Seed Metering,Finger pickup set - soybean,JD 7200 / 7300 / 1700,38.00
+AA37620,Backing Plate,Seed Metering,Seed meter backing plate,JD 7200 / 7300,22.00
+AA38110,Seed Tube,Seed Metering,Seed delivery tube assembly,JD 7200 / 7300 / 1700,28.00
+AA38225,Seed Sensor,Seed Metering,Optical seed sensor - per row,JD 7200 / 7300,265.00
+AA38340,Brush Meter Assembly,Seed Metering,Brush-style seed meter option,JD 7200 / 7300,410.00
+AA39100,Seed Plate,Seed Metering,Flat seed plate - medium round,JD 7200 / 7300,35.00
+BA28450,Gauge Wheel Arm LH,Row Unit,Gauge wheel arm assembly - left hand,JD 7200 / 7300 / 1700,135.00
+BA28451,Gauge Wheel Arm RH,Row Unit,Gauge wheel arm assembly - right hand,JD 7200 / 7300 / 1700,135.00
+BA28890,Gauge Wheel,Row Unit,Gauge wheel - rubber 3.5 x 15,JD 7200 / 7300 / 1700,72.00
+AA39660,Opener Disc,Row Unit,Single disc opener - 15 inch,JD 7200 / 7300,118.00
+AA39770,Closing Wheel,Row Unit,Standard rubber closing wheel,JD 7200 / 7300 / 1700,58.00
+AA39771,Closing Wheel Spike,Row Unit,Spiked closing wheel - aftermarket style,JD 7200 / 7300 / 1700,82.00
+BA29310,Parallel Arm Upper,Row Unit,Row unit parallel arm - upper,JD 7200 / 7300,185.00
+BA29311,Parallel Arm Lower,Row Unit,Row unit parallel arm - lower,JD 7200 / 7300,185.00
+AA40250,Downforce Spring,Row Unit,Row unit downforce spring set,JD 7200 / 7300 / 1700,38.00
+AA40455,Depth Adjustment Wheel,Row Unit,Depth setting gauge wheel - T-handle,JD 7200 / 7300,45.00
+AA41330,Drive Chain,Drive System,Seed meter drive chain - ground driven,JD 7200 / 7300,62.00
+AA41440,Drive Sprocket Set,Drive System,Seed meter drive sprocket set,JD 7200 / 7300,48.00
+AA41665,Idler Sprocket,Drive System,Chain idler sprocket and bracket,JD 7200 / 7300,35.00
+AA42100,Transmission,Drive System,Planter ground drive transmission,JD 7200 / 7300,890.00
+AA42210,Row Clutch,Drive System,Individual row clutch assembly,JD 7200 / 7300,165.00
+AA42770,Bearing Kit,Drive System,Row unit bearing replacement kit,JD 7200 / 7300 / 1700,75.00
+AA43550,Fertilizer Opener,Fertilizer System,2x2 fertilizer knife opener,JD 7200 / 7300,155.00
+AA43660,Fertilizer Tube,Fertilizer System,Fertilizer delivery tube,JD 7200 / 7300,32.00
+AA43775,Fertilizer Meter,Fertilizer System,Dry fertilizer metering unit,JD 7200 / 7300,285.00
+AA44110,Wiring Harness Main,Electrical,Planter main wiring harness - 12 row,JD 7200 (12R30),685.00
+AA44225,Row Harness,Electrical,Individual row wiring harness,JD 7200 / 7300,85.00
+AA44340,Planter Monitor,Monitoring,Basic planter population monitor,JD 7200 / 7300,1250.00
+AA44550,Population Sensor,Monitoring,Seed population sensor - per row,JD 7200 / 7300,195.00
+AA45110,Marker Disc,Toolbar,Row marker disc assembly,JD 7200,265.00
+AA45225,Toolbar Pin,Toolbar,Row unit mounting pin and bushing,JD 7200 / 7300,28.00
+AA45340,Toolbar Extension,Toolbar,Toolbar wing extension bracket,JD 7200 (16R30),395.00
