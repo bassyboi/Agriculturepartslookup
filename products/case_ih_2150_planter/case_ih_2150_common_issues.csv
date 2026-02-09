@@ -1,0 +1,18 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+CIH2150-001,Seed Metering,Seed skips and doubles - poor singulation,Seed Disc / Vacuum Seal / Seed Sensor,84593110;84593120;84593140,High
+CIH2150-002,Seed Metering,Meter vacuum pressure inconsistent across rows,Seed Meter Assembly / Vacuum Seal,84593100;84593120,High
+CIH2150-003,Seed Delivery,Seeds bouncing in seed tube at speed,Seed Tube / Seed Sensor,84593130;84593140,Medium
+CIH2150-004,Row Unit,Gauge wheel bearing failure,Gauge Wheel Arm LH / RH / Tire,84593200;84593201;84593210,Medium
+CIH2150-005,Row Unit,Inconsistent seed depth across rows,Depth Gauge / Opener Disc,84593240;84593230,High
+CIH2150-006,Row Unit,Closing wheels not sealing furrow in wet clay,Closing Wheel / Closing Wheel Spike,84593220;84593221,High
+CIH2150-007,Row Unit,Parallel arm bushing wear causing row unit slop,Parallel Arm / Parallel Arm Lower,84593250;84593251,Medium
+CIH2150-008,Row Unit,Downforce spring fatigue - inconsistent pressure,Downforce Spring,84593260,Medium
+CIH2150-009,Fertilizer System,Fertilizer knife plugging in heavy residue,Fertilizer Opener,84594100,Medium
+CIH2150-010,Fertilizer System,Fertilizer rate inconsistent across rows,Fertilizer Meter / Fertilizer Hose,84594110;84594120,High
+CIH2150-011,Row Cleaning,Row cleaner digging into soil in soft conditions,Row Cleaner,84595100,Medium
+CIH2150-012,Frame / Toolbar,Wing hinge pin wear - wing drop,Toolbar Hinge,84595220,Medium
+CIH2150-013,Drive System,Drive motor seal leak - loss of hydraulic drive,Drive Motor,84596100,High
+CIH2150-014,Drive System,Drive chain stretch causing population drift,Drive Chain / Drive Shaft,84596110;84596120,Medium
+CIH2150-015,Monitoring,AFS Pro 700 not reading all rows,AFS Pro 700 Monitor / Row Harness,84597100;84597120,High
+CIH2150-016,Electrical,Row harness chafing at toolbar pass-through,Row Harness / Harness Main,84597120;84597110,Medium
+CIH2150-017,Marker,Marker arm hydraulic cylinder leak,Marker Arm,84597130,Low

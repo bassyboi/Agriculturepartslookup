@@ -1,0 +1,18 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+KZ3600-001,Seed Metering,Brush meter singulation dropping below 96%,Seed Disc / Meter Brush / Vacuum Seal,GD11510;GD11520;GD11530,High
+KZ3600-002,Seed Metering,Meter brush wear causing seed doubles,Meter Brush / Seed Meter Assembly,GD11520;GD29010,High
+KZ3600-003,Seed Delivery,Seeds bouncing in tube at planting speed,Seed Tube / Seed Sensor,GD24010;GD24020,Medium
+KZ3600-004,Row Unit,Gauge wheel bearing failure - wheel wobble,Gauge Wheel Arm LH / RH / Tire,GD28010;GD28011;GD28020,Medium
+KZ3600-005,Row Unit,Inconsistent seed depth field to field,Depth Adjustment / Opener Disc,GD28050;GD28040,Medium
+KZ3600-006,Row Unit,Closing wheels not sealing in wet soil,Closing Wheel / Closing Wheel Spike,GD28030;GD28031,High
+KZ3600-007,Row Unit,Parallel arm bushing slop causing row wander,Parallel Arm Upper / Lower,GD28060;GD28061,Medium
+KZ3600-008,Row Unit,Downforce springs fatigued - shallow planting,Downforce Spring,GD28070,Medium
+KZ3600-009,Fertilizer System,Fertilizer knife plugging in corn stalks,Fertilizer Opener,GD30010,Medium
+KZ3600-010,Fertilizer System,Fertilizer rate drifting during field,Fertilizer Meter,GD30020,High
+KZ3600-011,Row Cleaning,Row cleaner flipping residue into seed trench,Row Cleaner,GD32010,Medium
+KZ3600-012,Frame / Toolbar,Wing fold hinge pin wear,Wing Hinge,GD34020,Low
+KZ3600-013,Drive System,Hydraulic drive motor seal leak,Drive Motor,GD36010,High
+KZ3600-014,Drive System,Drive chain stretch causing population error,Drive Chain / Drive Shaft,GD36020;GD36030,Medium
+KZ3600-015,Monitoring,KPM III monitor row dropout errors,KPM III Monitor / Row Harness,GD38010;GD38040,High
+KZ3600-016,Monitoring,Blue Vantage display boot failure,Blue Vantage Display,GD38020,Medium
+KZ3600-017,Electrical,Main harness connector corrosion,Harness Main / Row Harness,GD38030;GD38040,Medium

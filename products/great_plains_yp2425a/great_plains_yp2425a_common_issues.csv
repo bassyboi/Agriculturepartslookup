@@ -1,0 +1,16 @@
+issue_id,issue_category,description,affected_parts,recommended_part_numbers,severity
+GPYP-001,Seed Metering,Poor singulation with treated seed,Seed Disc / Vacuum Seal / Seed Sensor,820-167C;820-170C;820-185C,High
+GPYP-002,Seed Metering,Vacuum pressure inconsistent row to row,Seed Meter Assembly / Vacuum Seal,820-199C;820-170C,High
+GPYP-003,Seed Delivery,Seed bounce in tube at higher speeds,Seed Tube / Seed Sensor,820-180C;820-185C,Medium
+GPYP-004,Row Unit,Gauge wheel bearing failure,Gauge Wheel Arm / Tire,822-100C;822-110C,Medium
+GPYP-005,Row Unit,Depth inconsistent in variable soil,Depth Adjustment / Opener Disc,822-140C;822-130C,Medium
+GPYP-006,Row Unit,Closing wheels smearing sidewall in clay,Closing Wheel / Closing Wheel Spike,822-120C;822-121C,High
+GPYP-007,Row Unit,Parallel arm bushing wear,Parallel Arm Upper / Lower,822-150C;822-151C,Medium
+GPYP-008,Row Unit,Downforce spring fatigue,Downforce Spring,822-160C,Medium
+GPYP-009,Fertilizer System,Fertilizer knife plugging,Fertilizer Opener,824-100C,Medium
+GPYP-010,Fertilizer System,Fertilizer rate variation across rows,Fertilizer Meter,824-110C,High
+GPYP-011,Row Cleaning,Row cleaner too aggressive in soft ground,Row Cleaner,826-100C,Medium
+GPYP-012,Drive System,Drive motor seal failure,Drive Motor,830-100C,High
+GPYP-013,Drive System,Drive chain stretch - population drift,Drive Chain,830-110C,Medium
+GPYP-014,Monitoring,Monitor losing row communication,Monitor Display / Row Harness,832-100C;832-120C,High
+GPYP-015,Electrical,Main harness connector corrosion,Harness Main,832-110C,Medium

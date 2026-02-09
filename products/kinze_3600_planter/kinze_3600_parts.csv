@@ -1,0 +1,31 @@
+part_number,part_name,category,description,compatibility,price_usd
+GD29010,Seed Meter Assembly,Seed Metering,Kinze brush meter assembly - complete,Kinze 3600 / 3660 / 3700,650.00
+GD11510,Seed Disc,Seed Metering,Brush meter seed disc - corn,Kinze 3600 / 3660,78.00
+GD11511,Seed Disc Soybean,Seed Metering,Brush meter seed disc - soybean,Kinze 3600 / 3660,78.00
+GD11520,Meter Brush,Seed Metering,Seed singulation brush set,Kinze 3600 / 3660,35.00
+GD11530,Vacuum Seal,Seed Metering,Meter housing vacuum seal,Kinze 3600 / 3660,16.00
+GD24010,Seed Tube,Seed Delivery,Seed delivery tube - production,Kinze 3600 / 3660,58.00
+GD24020,Seed Sensor,Monitoring,Optical seed sensor - per row,Kinze 3600 / 3660 / 3700,175.00
+GD28010,Gauge Wheel Arm LH,Row Unit,Gauge wheel arm assembly - left,Kinze 3600 / 3660,140.00
+GD28011,Gauge Wheel Arm RH,Row Unit,Gauge wheel arm assembly - right,Kinze 3600 / 3660,140.00
+GD28020,Gauge Wheel Tire,Row Unit,Gauge wheel tire and rim,Kinze 3600 / 3660,88.00
+GD28030,Closing Wheel,Row Unit,Standard V-press closing wheel,Kinze 3600 / 3660,70.00
+GD28031,Closing Wheel Spike,Row Unit,Spiked closing wheel - OEM,Kinze 3600 / 3660,105.00
+GD28040,Opener Disc,Row Unit,Seed opener disc blade - 15 inch,Kinze 3600 / 3660,65.00
+GD28050,Depth Adjustment,Row Unit,Depth control T-handle assembly,Kinze 3600 / 3660,55.00
+GD28060,Parallel Arm Upper,Row Unit,Parallel linkage arm - upper,Kinze 3600 / 3660,175.00
+GD28061,Parallel Arm Lower,Row Unit,Parallel linkage arm - lower,Kinze 3600 / 3660,175.00
+GD28070,Downforce Spring,Row Unit,Mechanical downforce spring,Kinze 3600 / 3660,42.00
+GD30010,Fertilizer Opener,Fertilizer System,2x2 fertilizer knife opener,Kinze 3600 / 3660,150.00
+GD30020,Fertilizer Meter,Fertilizer System,Liquid fertilizer metering valve,Kinze 3600 / 3660,265.00
+GD32010,Row Cleaner,Row Cleaning,Residue manager row cleaner,Kinze 3600 / 3660,310.00
+GD34010,Toolbar Section,Frame / Toolbar,Center toolbar section,Kinze 3600 (16-24 row),1750.00
+GD34020,Wing Hinge,Frame / Toolbar,Wing fold hinge assembly,Kinze 3600 / 3660,365.00
+GD36010,Drive Motor,Drive System,Hydraulic meter drive motor,Kinze 3600 / 3660,1550.00
+GD36020,Drive Chain,Drive System,Meter drive chain assembly,Kinze 3600 / 3660,78.00
+GD36030,Drive Shaft,Drive System,Ground drive shaft assembly,Kinze 3600,390.00
+GD38010,KPM III Monitor,Monitoring,Kinze Planter Monitor III display,Kinze 3600 / 3660 / 3700,2400.00
+GD38020,Blue Vantage Display,Monitoring,Kinze Blue Vantage touchscreen display,Kinze 3600 / 3660 / 3700,3800.00
+GD38030,Harness Main,Electrical,Main planter wiring harness,Kinze 3600 / 3660,620.00
+GD38040,Row Harness,Electrical,Individual row wiring harness,Kinze 3600 / 3660,88.00
+GD40010,Marker Arm,Marker,Disc marker arm assembly,Kinze 3600 / 3660,480.00

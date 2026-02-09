@@ -70,13 +70,28 @@ Full product catalogs and known issues for all major precision agriculture techn
 - `recommended_action` - Troubleshooting steps and resolution
 - `severity` - Low / Medium / High / Critical
 
+## Planter Brands
+
+All major planter brands with parts catalogs, common issues, and ranked performance parts:
+
+| Brand | Model | Products Folder | Row Units | Metering |
+|-------|-------|-----------------|-----------|----------|
+| **John Deere** | 1720 (MaxEmerge 5) | `products/jd1720_planter/` | 30 parts, 18 issues | Vacuum disc |
+| **John Deere** | MaxEmerge XP (7200/7300) | `products/maximerge_xp_planter/` | 34 parts, 21 issues | Finger pickup |
+| **Case IH** | 2150 Early Riser | `products/case_ih_2150_planter/` | 31 parts, 17 issues | Vacuum disc |
+| **Kinze** | 3600 | `products/kinze_3600_planter/` | 30 parts, 17 issues | Brush meter |
+| **Great Plains** | YP-2425A | `products/great_plains_yp2425a/` | 26 parts, 15 issues | Vacuum disc |
+| **White (AGCO)** | 9800VE | `products/white_9800ve_planter/` | 26 parts, 16 issues | Vacuum / electric |
+| **Monosem** | NG Plus 4 | `products/monosem_ng_plus/` | 26 parts, 16 issues | Vacuum w/ singulator |
+| **Vaderstad** | Tempo V/L/F | `products/vaderstad_tempo/` | 27 parts, 16 issues | PowerShoot high-speed |
+
+Each planter folder contains parts, common issues, and a **ranked performance parts CSV** with aftermarket upgrades (closing wheels, seed firmers, meters, downforce, row cleaners, monitors) verified to fit that planter's production row units.
+
 ## Other Equipment
 
 | Folder | Equipment | Description |
 |--------|-----------|-------------|
 | `products/cp770_cotton_picker/` | CP 770 Cotton Picker | Picking unit, air system, hydraulics, electrical, engine, basket/conveying parts |
-| `products/jd1720_planter/` | JD 1720 Planter | Seed metering, vacuum system, row unit, drive system, electrical, monitoring parts |
-| `products/maximerge_xp_planter/` | MaxEmerge XP Planter | Finger pickup meter, row units, fertilizer, transmission, drive system parts |
 
 ## Parts CSV Structure
 
